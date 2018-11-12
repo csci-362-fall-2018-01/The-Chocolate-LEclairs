@@ -24,4 +24,4 @@ class TestAgeCalculation(unittest.TestCase):
 					self.assertNotEqual(int(age), out)
 
 if __name__ == '__main__':
-	unittest.main();
+	unittest.main()
