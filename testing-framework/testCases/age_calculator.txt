@@ -11,5 +11,13 @@
 # input parameters:
 # first line: date of birth
 # second line: current age
-06/22/1997
+22/06/1997
 21
+25/12/1997
+20
+10/03/1990
+28
+29/05/1978
+40
+30/09/2016
+2
