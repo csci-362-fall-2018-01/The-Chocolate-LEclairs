@@ -5,8 +5,6 @@ import datetime
 import os
 
 class TestAgeCalculation(unittest.TestCase):
-	os.system("echo \"Testing Age Calculation with Valid Input\" >> ../temp/output.log")
-
 	def test_age_calc(self):
 		input_file = open("../testCases/age_calculator.txt", "r")
 
