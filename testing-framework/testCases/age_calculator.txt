@@ -1,12 +1,12 @@
 # Age Calculator Test Case
-# This test case is to make sure that the profile creation system will create a new profile
+# This test case is to make sure that the calculate_age method works as intended
 # Valid input is to be given
 #
-# test number: 1
-# component: agepicker.py
+# test number: 1.01
+# component: jarabe.intro.agepicker.py
 # method: calculate_age
 # input: birth_timestamp
-# output: current based on the birth_timestamp
+# output: current age based on the birth_timestamp
 #
 # input parameters:
 # first line: date of birth
