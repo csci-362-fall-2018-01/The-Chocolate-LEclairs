@@ -1,5 +1,10 @@
 # Profile Creation Test Case
 # This test case is to make sure that the profile creation system will create a new profile
 # Valid input is to be given
-
-
+#
+#
+#
+#
+# input: profile_name
+# output: successful/failure
+#
