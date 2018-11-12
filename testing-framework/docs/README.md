@@ -18,7 +18,7 @@
 		testCase2.py
 		...
 	/temp
-		Output.log
+		output.log
 	/docs
 		README.md
 	/reports
@@ -26,9 +26,9 @@
 ```
 
 # Test Case Format
-Example test cases can be found in the testCases folder of the testing-framework.<br><br>
+Example test cases can be found in the testCases folder of the testing-framework.
 ```
 '#' represents a comment
 each line that is not a comment should be treated as one parameter into the test case.
-output from the test cases will be sent to output.log in /temp/ if run by the runAllTests.py script file
+output from the test cases will be sent to output.log in /temp/ if run by the runAllTests.py script file.
 ```
