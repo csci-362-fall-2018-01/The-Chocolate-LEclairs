@@ -6,9 +6,9 @@ import jarabe.intro.agepicker as agepick
 
 class TestAgeCalculation(unittest.TestCase):
 	def test_age_calc(self):
-		date = "";
-		age = "";
-		count = 0;
+		date = ""
+		age = ""
+		count = 0
 
 		for line in open("../testCases/age_calculator_invalid.txt"):
 			l = line.strip()
