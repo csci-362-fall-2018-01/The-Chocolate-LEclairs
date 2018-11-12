@@ -1,16 +1,16 @@
-Mon Nov 12 00:00:38 EST 2018
+Mon Nov 12 00:09:51 EST 2018
 
 Testing Age Calculation with Invalid Input
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.008s
+Ran 1 test in 0.002s
 
 OK
 
 Testing Age Calculation with Valid Input
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.011s
+Ran 1 test in 0.002s
 
 OK
 
@@ -31,6 +31,46 @@ OK
 Testing Buddy Nickname with Valid Input
 .
 ----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mon Nov 12 00:09:48 EST 2018
+
+Testing Age Calculation with Invalid Input
+.
+----------------------------------------------------------------------
 Ran 1 test in 0.002s
+
+OK
+
+Testing Age Calculation with Valid Input
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+
+Testing Buddy Color Change with Valid Input
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+Testing Buddy Key Change with Valid Input
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+Testing Buddy Nickname with Valid Input
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
 
 OK
