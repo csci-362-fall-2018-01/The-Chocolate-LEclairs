@@ -1,0 +1,48 @@
+Mon Nov 12 00:19:55 EST 2018
+
+Testing Age Calculation with Invalid Input
+Ran 1 test in 0.002s
+OK
+
+Testing Age Calculation with Valid Input
+Ran 1 test in 0.003s
+OK
+
+Testing Buddy Color Change with Valid Input
+Ran 1 test in 0.000s
+OK
+
+Testing Buddy Key Change with Valid Input
+Ran 1 test in 0.000s
+OK
+
+Testing Buddy Nickname with Valid Input
+Ran 1 test in 0.000s
+OK
+
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Mon Nov 12 00:19:50 EST 2018
+
+Testing Age Calculation with Invalid Input
+Ran 1 test in 0.003s
+OK
+
+Testing Age Calculation with Valid Input
+Ran 1 test in 0.004s
+OK
+
+Testing Buddy Color Change with Valid Input
+Ran 1 test in 0.001s
+OK
+
+Testing Buddy Key Change with Valid Input
+Ran 1 test in 0.002s
+OK
+
+Testing Buddy Nickname with Valid Input
+Ran 1 test in 0.001s
+OK

@@ -5,6 +5,7 @@ import subprocess
 ls_output = subprocess.check_output("ls ../testCaseExecutables/", shell = True)
 test_files = ls_output.split()
 
+os.system("touch ../temp/output.log")
 os.system("mv ../temp/output.log ../temp/output2.log")
 os.system("date >> ../temp/output.log")
 
