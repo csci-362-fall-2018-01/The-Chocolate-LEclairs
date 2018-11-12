@@ -1,10 +1,13 @@
 import unittest
 
+import os
 import time
 import datetime
 import jarabe.intro.agepicker as agepick
 
 class TestAgeCalculation(unittest.TestCase):
+	os.system("echo \"Testing Age Calculation with Invalid Input\" >> ../temp/output.log")
+
 	def test_age_calc(self):
 		date = ""
 		age = ""

@@ -1,5 +1,4 @@
 import subprocess
 
 test_file_name = raw_input()
-output = subprocess.check_output("python ../testCaseExecutables/" + test_file_name, shell=True)
-print(output)
+subprocess.check_output("python -W ignore ../testCaseExecutables/" + test_file_name + " 2>> ../temp/output.log", shell=True)
