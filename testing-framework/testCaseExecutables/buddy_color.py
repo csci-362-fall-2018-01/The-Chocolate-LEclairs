@@ -3,7 +3,7 @@ import os
 import jarabe.model.buddy as bud
 
 class TestChangingNickname(unittest.TestCase):
-    os.system("echo \"Testing Buddy Nickname with Valid Input\" >> ../temp/output.log")
+    os.system("echo \"Testing Buddy Color Change with Valid Input\" >> ../temp/output.log")
 
     def test_nick_change(self):
         for line in open("../testCases/buddy_color.txt"):
