@@ -1,0 +1,15 @@
+# Age Calculator Test Case
+# This test case is to make sure that the profile creation system will create a new profile
+# Valid input is to be given
+#
+# test number: 1
+# component: agepicker.py
+# method: calculate_age
+# input: birth_timestamp
+# output: current based on the birth_timestamp
+#
+# input parameters:
+# first line: date of birth
+# second line: current age
+06/22/1997
+21
