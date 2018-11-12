@@ -1,0 +1,2789 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-30 14:24+0000\n"
+"PO-Revision-Date: 2016-05-24 01:30+0000\n"
+"Last-Translator: Chris <cjl@sugarlabs.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ayc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1464053410.000000\n"
+
+# "Migrado a GSettings"
+#: ../data/org.sugarlabs.gschema.xml.h:1
+msgid "Migrated to GSettings"
+msgstr "GSettings wakichataru apamukuta"
+
+# "Esta clave muestra si la configuración fué migrada de GConf a GSettings"
+#: ../data/org.sugarlabs.gschema.xml.h:2
+msgid "This key shows whether or not GConf values were migrated to GSettings"
+msgstr ""
+"GConf wakichatatha GSettings wakichataru apamukutati askicht'awixa ukwa aka "
+"mantaña chimpuxa uñachayi"
+
+# 2. tr. Proteger, apoyar, garantizar. = reserva
+#
+#: ../data/org.sugarlabs.gschema.xml.h:3 ../data/sugar.schemas.in.h:11
+msgid "Backup URL"
+msgstr "Yanapt'asiñataki imata thaqaña URL"
+
+# Wakichata URL katuqata apaqata imiri. = PROBLEMA.- Sintaxis.- URL como núcleo tiene que estar al final de frase.
+#: ../data/org.sugarlabs.gschema.xml.h:4 ../data/sugar.schemas.in.h:12
+msgid "URL where the backup is saved to."
+msgstr "Kawkiru imatäkixa yanapt'asiñaxa uka URL."
+
+# Mostrar Salir
+#: ../data/org.sugarlabs.gschema.xml.h:5 ../data/sugar.schemas.in.h:31
+msgid "Show Log out"
+msgstr "Mistxañataki Limt'aña uñachayaña"
+
+# Arriba ya se tradujo terminar sesión como <Mistxañataki limt'aña>; por tanto se sugiere que acá se mantenga la misma forma.
+#: ../data/org.sugarlabs.gschema.xml.h:6 ../data/sugar.schemas.in.h:32
+msgid "If TRUE, Sugar will show a \"Log out\" option."
+msgstr "TRUE ukampisti, Sugar wakichawixa \"Log out\" wakichawi qhanstayani."
+
+# Faltaba el verbo <mostrar> 'uñachayaña' y mayúscula como en 'Reiniciar'.
+#: ../data/org.sugarlabs.gschema.xml.h:7 ../data/sugar.schemas.in.h:33
+msgid "Show Restart"
+msgstr "Mayampi Qalltañataki limt'aña uñachayaña"
+
+# TRUE significa VERDAD, y no es ningun WAKICHAWI, por eso fue borrado esta palabra.
+#: ../data/org.sugarlabs.gschema.xml.h:8 ../data/sugar.schemas.in.h:34
+msgid "If TRUE, Sugar will show a \"Restart\" option."
+msgstr ""
+"TRUE ukampisti, Sugar wakichawixa \"Mayampi Qalltaña\" sata wakichawi "
+"uñachayani."
+
+# "Mostrar Apagar"
+#: ../data/org.sugarlabs.gschema.xml.h:9 ../data/sugar.schemas.in.h:35
+msgid "Show Shutdown"
+msgstr "Jiwayaña sata limt'aña uñachayaña"
+
+# El problema estaba en castellano: por una parte SHUTDOWN es traducirdo como "Terminar Sesión", y por otra "Apagar"
+#: ../data/org.sugarlabs.gschema.xml.h:10 ../data/sugar.schemas.in.h:36
+msgid "If TRUE, Sugar will show a \"Shutdown\" option."
+msgstr ""
+"TRUE ukampisti, Sugar wakichawixa \"Jiwayaña\" sata limt'aña uñachayani."
+
+# "Mostrar Registrar"
+#: ../data/org.sugarlabs.gschema.xml.h:11 ../data/sugar.schemas.in.h:37
+msgid "Show Register"
+msgstr "Qillqantaña limt'aña uñachayaña"
+
+# "Si es TRUE, mostrar opcion \"Registrar\" en la paleta del icono central"
+#: ../data/org.sugarlabs.gschema.xml.h:12 ../data/sugar.schemas.in.h:38
+msgid "If TRUE, Sugar will show a \"Register\" option in the buddy palette."
+msgstr ""
+"TRUE ukampisti, Sugar wakichawixa, \"Qillqantaña\" limt'aña, taypi "
+"jamuqallapa chiqana, uñachayani."
+
+# IDENTIFICADOR = sutipatha thaqiri.
+#: ../data/org.sugarlabs.gschema.xml.h:13 ../data/sugar.schemas.in.h:63
+msgid "Bundle IDs of protected activities"
+msgstr "Suma imata lurawinaka sutipatha thaqiri yänaka"
+
+# "Apnaqirinakaxa wakichata luratanaka janiwa chhaqtayañapäkiti, wakichawinaka siqichata uñasiyañanxa." TRADUCCION DE LA TRADUCCION: "Los usuarios no deben borrar actividades al mostrar la lista". Pero eso no es la consigna. Ese es el peligro cuando no se conoce las gramáticas de ambas lenguas. En este caso se ha afectado el SENTIDO de la idea orginal, casi totalmente.
+#: ../data/org.sugarlabs.gschema.xml.h:14 ../data/sugar.schemas.in.h:64
+msgid ""
+"Users will not be allowed to erase these activities through the list view."
+msgstr ""
+"Aytawi uñasiyañanxa, lurawinaka jani chhaqtayatäñapa muniri apnaqirinaka."
+
+# "Un límite al número de actividades abiertas simultaneamente "
+#: ../data/org.sugarlabs.gschema.xml.h:15 ../data/sugar.schemas.in.h:79
+msgid "A limit to the number of simultaneously open activities."
+msgstr "Qhawqha wakichawinakasa maya pachanaki llawiratäñapaxa uka jarkt'aña."
+
+# "Este entero es usado para limitar el número de actividades abiertas. Por defecto es cero, que no pone ningún límite"
+#: ../data/org.sugarlabs.gschema.xml.h:16 ../data/sugar.schemas.in.h:80
+msgid ""
+"This int is used to set a limit to the number of open activities. By default "
+"(0), there is no limit."
+msgstr ""
+"Akaxa ukch'pacha jakhuxa qhawqha lurawinakasa llawiratäñapaxa uka "
+"jark't'añatakiwa. Maysathsti, (0), ch'usa jakhuxa jani kunsa jark'añataki "
+"uchatawa."
+
+# Nombre de usuario
+#: ../data/org.sugarlabs.gschema.xml.h:17 ../data/sugar.schemas.in.h:1
+msgid "User Name"
+msgstr "Apnaqirina chimpu sutipa"
+
+# <Apnaqirina chimpu sutipa taqi kuna qillqañana apnaqata> = Esta frase tiene serios errores de sintaxis. Regla: las relativas en el aimara preceden a su núcleo. Por tanto, nuestra frase quedaría mejor así: Taqi kuna qillqañana apnaqata apnaqirina chimpu sutipa . Como es una frase, no tiene PUNTO.
+#: ../data/org.sugarlabs.gschema.xml.h:18 ../data/sugar.schemas.in.h:2
+msgid "User name that is used throughout the desktop."
+msgstr "Taqi kuna qillqañana apnaqata apnaqirina chimpu sutipa."
+
+# Predeterminado nick
+#: ../data/org.sugarlabs.gschema.xml.h:19 ../data/sugar.schemas.in.h:3
+msgid "Default nick"
+msgstr "K'ari suti wakichata"
+
+# No sé, péro el traductor anterior usa la palabra WAKICHAWI para muchas cosas, para  muchas palabras del castellano. Acá, parece que significa SISTEMA, en otros lugares significa ACTIVIDAD, PROGRAMA, PROYECTO... Habría que delimitar su uso.
+#: ../data/org.sugarlabs.gschema.xml.h:20 ../data/sugar.schemas.in.h:4
+msgid ""
+"\"disabled\" to ask nick on initialization; \"system\" to reuse UNIX account "
+"long name."
+msgstr ""
+"Qalltana, k'ari sutitha jiskt'asiñataki \"disabled\" (jiwata) sata; UNIX "
+"qillqantana sayt'u sutipa wasitatha apnaqañataki \"system\" (wakichawi) sata."
+
+# color del usuario
+#: ../data/org.sugarlabs.gschema.xml.h:21 ../data/sugar.schemas.in.h:5
+msgid "User Color"
+msgstr "Apnaqirina chimpu samipa"
+
+# Propongo que "escritorio" se traduzca así: QILLQAÑA UCHAWI ==== Icono = jamuqalla
+#: ../data/org.sugarlabs.gschema.xml.h:22 ../data/sugar.schemas.in.h:6
+msgid ""
+"Color for the XO icon that is used throughout the desktop. The string is "
+"composed of the stroke color and fill color, format is that of rgb colors. "
+"Example: #AC32FF,#9A5200"
+msgstr ""
+"XO satana jamuqallatakixa, samixa taqpacha qillqaña uchawina apnaqasixa. "
+"Akanxa sich'impi samimpi phuqachatawa utjixa, uka saminakaxa RGB uñtatawa. "
+"Akhama: # AC32FF, # 9A5200"
+
+# Género del usuario
+#: ../data/org.sugarlabs.gschema.xml.h:23
+msgid "User Gender"
+msgstr "Chachati warmicha yaqhacha apnaqirixa"
+
+# Género del usuario de Sugar, masculino, femenino o indefinido
+#: ../data/org.sugarlabs.gschema.xml.h:24
+msgid "Gender of the Sugar user, either male, female, or unassigned"
+msgstr "Chachati warmicha, janukaxa yaqhacha Sugar apnaqirixa"
+
+# Fecha de nacimiento del usuario
+#: ../data/org.sugarlabs.gschema.xml.h:25
+msgid "User Birth Timestamp"
+msgstr "Apnaqirina yuritapana pachapa"
+
+# ch'ipxta 'segundo'
+#: ../data/org.sugarlabs.gschema.xml.h:26
+msgid "Birth timestamp (seconds since the epoch)"
+msgstr "Yuriwi (epoch satathpacha, ch'ipxtampi jakhuta)"
+
+# Etiqueta de Grupo
+#: ../data/org.sugarlabs.gschema.xml.h:27
+msgid "Group Label"
+msgstr "Qutuchasitana Sutipa"
+
+# Etiqueta asociada a la edad, ejemplo \"2do Grado\"
+#: ../data/org.sugarlabs.gschema.xml.h:28
+msgid "Label associated with age, e.g., '2nd Grade'"
+msgstr "Marapa chimpuña, sañäni '2do Grado'"
+
+# Ruta de la imagen del fondo
+#: ../data/org.sugarlabs.gschema.xml.h:29
+msgid "Background image path"
+msgstr "Manqhäxa jamuqana thakipa"
+
+# Path a la imagen usada como fondo de pantalla
+#: ../data/org.sugarlabs.gschema.xml.h:30
+msgid "Path to the image to be used as a background."
+msgstr "Pantallana manqhäxapjama apnaqata jamuqaru uñtasiri path sata."
+
+# Nivel de alpha de la imagen de fondo de pantalla
+#: ../data/org.sugarlabs.gschema.xml.h:31
+msgid "Background alpha level"
+msgstr "Pantalla manqhäxana jamuqapana alpha tupuñapa"
+
+# Mejor, CHHARPU... Que es el más usado desde Ilave (cf. Saturnino C.) hacia el sur.
+#: ../data/org.sugarlabs.gschema.xml.h:32
+msgid "The opacity of the background image."
+msgstr "Pantalla manqäxana chharpu kankañapa."
+
+# Cual de los significados? TIPO ¿como letra, tecla o clase?
+#: ../data/org.sugarlabs.gschema.xml.h:33
+msgid "Mimetype registry"
+msgstr "Mime sata liq'iri qillqanta chinu"
+
+# Si TIPO en PIEZA de la IMPRENTA, que se traduzca como LIK'I; si es como 'clase', que se traduzca como KASTA.
+#: ../data/org.sugarlabs.gschema.xml.h:34
+msgid "Consists of key-value pairs mimetypes and their corresponding activity"
+msgstr "Mimes kasta wakichatanaka chimpu-chani puraparu wakisiri wakichata"
+
+# Para mí y en lugar donde hablamos CH'AXWA- usamos cuando dos personas se enfrentan verbalmente a gritos, a veces tiene el sentido de LUCHAR. Juma laykuti nayaxa ch'axwtha = '¿Acaso yo luché por tu causa?'. Ahora, cómo puede significar VOLUME. Bueno, usaré está mejor SALLANCHA
+#: ../data/org.sugarlabs.gschema.xml.h:35 ../data/sugar.schemas.in.h:7
+msgid "Volume Level"
+msgstr "Sallancha tupuña"
+
+# Tupu 'medida, nivel'
+#: ../data/org.sugarlabs.gschema.xml.h:36 ../data/sugar.schemas.in.h:8
+msgid "Volume level for the sound device."
+msgstr "Salla dispositivo yätaki sallanchana tupupa."
+
+# No hay sonido
+#: ../data/org.sugarlabs.gschema.xml.h:37 ../data/sugar.schemas.in.h:9
+msgid "Sound Muted"
+msgstr "Sallaxa amukt'ayatawa"
+
+# Ajuste para silenciar el dispositivo de sonido.
+#: ../data/org.sugarlabs.gschema.xml.h:38 ../data/sugar.schemas.in.h:10
+msgid "Setting for muting the sound device."
+msgstr "Sallana wakichata yäpa amukt'ayañataki askichaña."
+
+#: ../data/org.sugarlabs.gschema.xml.h:39
+msgid "Brightness Level"
+msgstr "Lliphi kankañana tupupa"
+
+# tupu = nivel o medida.
+#: ../data/org.sugarlabs.gschema.xml.h:40
+msgid "Brightness level for the computer screen."
+msgstr "Kumputarurana pantallapana lliphi kankañapana tupupa."
+
+#  "Zona horaria"
+#: ../data/org.sugarlabs.gschema.xml.h:41
+#: ../extensions/cpsection/datetime/view.py:66 ../data/sugar.schemas.in.h:13
+msgid "Timezone"
+msgstr "Suyu pacha"
+
+# El traductor propone que WAKICHAWI sea SISTEMA. Hay que ser consecuente en este lugar.
+#: ../data/org.sugarlabs.gschema.xml.h:42 ../data/sugar.schemas.in.h:14
+msgid "Timezone setting for the system."
+msgstr "Wakichawitaki suyu pacha askichaña."
+
+# Vistas de Inicio
+#: ../data/org.sugarlabs.gschema.xml.h:43
+msgid "Home views"
+msgstr "Qalltañataki uñjañanaka"
+
+# Lista de las views en la vista hogar, incluyendo los iconos ver, favoritos y disposición
+#: ../data/org.sugarlabs.gschema.xml.h:44
+msgid ""
+"List of home views, including the view icon, the favorite icon and the layout"
+msgstr ""
+"Qalltañataki uñjaña lista aytawi; ukasti akïri jamuqallanakaniwa: uñjaña, "
+"khusanaka, disposición sata"
+
+#: ../data/org.sugarlabs.gschema.xml.h:45
+msgid "Launcher animation interval"
+msgstr "Rixitanaka unuqiyaña wakichatanaka"
+
+#: ../data/org.sugarlabs.gschema.xml.h:46
+msgid ""
+"Delay in milliseconds between animation updates for launcher pulsing icon."
+msgstr "mili-segundos pach'a chimpu ritanaka unuqiyaña wakichatanaka qhipt'a"
+
+#: ../data/org.sugarlabs.gschema.xml.h:47 ../data/sugar.schemas.in.h:19
+msgid "Edge Delay"
+msgstr "Qawaykipa Qhipt'ata"
+
+# Retraso de la activación del marco usando los bordes
+#: ../data/org.sugarlabs.gschema.xml.h:48 ../data/sugar.schemas.in.h:20
+msgid "Delay for the activation of the frame using the edges."
+msgstr "Qawayanakampi taqi irnaqaña qhantayaña qhipt'äwi."
+
+# Rincón de retardo
+#: ../data/org.sugarlabs.gschema.xml.h:49 ../data/sugar.schemas.in.h:21
+msgid "Corner Delay"
+msgstr "Qhipt'ata k'uchu"
+
+# Retraso de la activación del marco usando las esquinas
+#: ../data/org.sugarlabs.gschema.xml.h:50 ../data/sugar.schemas.in.h:22
+msgid "Delay for the activation of the frame using the corners."
+msgstr "K'uchunakampi taqi irnaqaña qhantayaña qhipt'awi."
+
+#: ../data/org.sugarlabs.gschema.xml.h:51
+msgid "Trigger Size"
+msgstr "Llipjtayirina tañapa"
+
+#: ../data/org.sugarlabs.gschema.xml.h:52
+msgid "Size of the frame trigger area, in px from the corner/edge."
+msgstr "Qhantayañana katupa tañapa, píxeles chimpumpi sapa wit'unakatpacha"
+
+# Servidor: Luqtiri
+#: ../data/org.sugarlabs.gschema.xml.h:53 ../data/sugar.schemas.in.h:23
+msgid "Jabber Server"
+msgstr "Jabber sutini luqtasiri"
+
+# <Wakichata URL katuqiri Jabber qhantayiri apnaqañataki.> hay que arreglar la construccion de esta frase.
+#: ../data/org.sugarlabs.gschema.xml.h:54 ../data/sugar.schemas.in.h:24
+msgid "URL of the jabber server to use."
+msgstr "Jabber sutini apnaqañataki luqtirina URL satapa."
+
+# Publicar en Gadget
+#: ../data/org.sugarlabs.gschema.xml.h:55 ../data/sugar.schemas.in.h:29
+msgid "Publish to Gadget"
+msgstr "Wakichata Gadget taypitha qhanstayaña"
+
+# Si es TRUE, el azúcar nos hará consultada para los demás usuarios del servidor Jabber
+#: ../data/org.sugarlabs.gschema.xml.h:56 ../data/sugar.schemas.in.h:30
+msgid ""
+"If TRUE, Sugar will make us searchable for the other users of the Jabber "
+"server."
+msgstr ""
+"TRUE sasa CHIQAPÄchi ukaxa, Sugar wakichataxa aka Jabber wakichatwa "
+"ucht'ani, yaqha apnaqirinaka jiwasaru thaqañapatakiwa."
+
+#: ../data/org.sugarlabs.gschema.xml.h:57
+msgid "Social Help Server"
+msgstr "Yanapt'awi luqtiri"
+
+#: ../data/org.sugarlabs.gschema.xml.h:58
+msgid "URL of the social help server to use with protocol."
+msgstr "Yanapt'awi luqtirina URL satapa"
+
+#: ../data/org.sugarlabs.gschema.xml.h:59 ../data/sugar.schemas.in.h:25
+msgid "Power Automatic"
+msgstr "Power sata Chamanchirina jupapachaki apnaqasitapa"
+
+#: ../data/org.sugarlabs.gschema.xml.h:60
+#: ../extensions/cpsection/power/view.py:55 ../data/sugar.schemas.in.h:26
+msgid "Automatic power management (increases battery life)"
+msgstr "Jupapachaki ch'ama apnaqasiwipa (bateria jaya jakañapataki)"
+
+# Ah, seguramente EXTREMO fue leido como EXTERNO.
+#
+#: ../data/org.sugarlabs.gschema.xml.h:61 ../data/sugar.schemas.in.h:27
+msgid "Power Extreme"
+msgstr "Power sata ch'ama suma apnaqaña"
+
+# Qué es JAQAÑA??? Ya he leídos dos veces.
+#: ../data/org.sugarlabs.gschema.xml.h:62 ../data/sugar.schemas.in.h:28
+msgid ""
+"Extreme power management (disables wireless radio, increases battery life)"
+msgstr ""
+"Power sata ch'ama suma apnaqaña (radio wireless sata apaqaña, bateria jaya "
+"jakayañataki)"
+
+#  "Distribuciones del teclado"
+#: ../data/org.sugarlabs.gschema.xml.h:63 ../data/sugar.schemas.in.h:39
+msgid "Keyboard layouts"
+msgstr "T'iqiqiyañana kunaymanataki lakinuqawi"
+
+# Siqichata como LISTA... Es un neologismo. Ojala funcione.
+#
+#: ../data/org.sugarlabs.gschema.xml.h:64 ../data/sugar.schemas.in.h:40
+msgid ""
+"List of keyboard layouts. Each entry should be in the form layout(variant)"
+msgstr ""
+"T'iqiqiyañana lakinuqasitapana lista aytawipa. Sapa mantañawa suma "
+"t'aqanuqatäñapaxa (kunaymanachata)"
+
+# opciones de teclado
+#: ../data/org.sugarlabs.gschema.xml.h:65 ../data/sugar.schemas.in.h:41
+msgid "Keyboard options"
+msgstr "T'iqiqiyañana utjirinakapa"
+
+# Lista de las opciones del teclado
+#: ../data/org.sugarlabs.gschema.xml.h:66 ../data/sugar.schemas.in.h:42
+msgid "List of keyboard options."
+msgstr "T'iqiqiyañana utjirinakapana aytawipa."
+
+# KASTA proviene del castellano CASTA, CLASE,
+#: ../data/org.sugarlabs.gschema.xml.h:67 ../data/sugar.schemas.in.h:43
+msgid "Keyboard model"
+msgstr "T'iqiqiyañana kastapa"
+
+# El modelo de teclado para ser utilizado
+#: ../data/org.sugarlabs.gschema.xml.h:68 ../data/sugar.schemas.in.h:44
+msgid "The keyboard model to be used"
+msgstr "Apnaqatäkani uka t'iqiqiyañana kastapa"
+
+# Tipo de letra por defecto
+#: ../data/org.sugarlabs.gschema.xml.h:69 ../data/sugar.schemas.in.h:45
+msgid "Default font face"
+msgstr "Wakicht'ata qillqanakana kastapa"
+
+# Fuente cara que se utiliza en todo el escritorio
+#: ../data/org.sugarlabs.gschema.xml.h:70 ../data/sugar.schemas.in.h:46
+msgid "Font face that is used throughout the desktop."
+msgstr "Taqpacha qillqaña uchawina apnaqasiñataki qillqana kastapa."
+
+# Por defecto el tamaño de fuente
+#: ../data/org.sugarlabs.gschema.xml.h:71 ../data/sugar.schemas.in.h:47
+msgid "Default font size"
+msgstr "Wakicht'ata qillqana tañapa"
+
+# Tamaño de la fuente que se utiliza en todo el escritorio
+#: ../data/org.sugarlabs.gschema.xml.h:72 ../data/sugar.schemas.in.h:48
+msgid "Font size that is used throughout the desktop."
+msgstr "Qillqaña uchawpachana, qillqana tañapa."
+
+# Mostrar azúcar redes ad-hoc
+#: ../data/org.sugarlabs.gschema.xml.h:73 ../data/sugar.schemas.in.h:61
+msgid "Show Sugar Ad-hoc networks"
+msgstr "Sugar satana AD-hoc llikanakapa uñachayaña"
+
+# Si es TRUE, el azúcar se mostrará por defecto redes ad-hoc para el canal de 1,6 y 11. Si el azúcar no ve "conocido" de la red cuando se inicia, lo hace conexión automática a una red Ad-hoc
+#: ../data/org.sugarlabs.gschema.xml.h:74 ../data/sugar.schemas.in.h:62
+msgid ""
+"If TRUE, Sugar will show default Ad-hoc networks for channel 1,6 and 11. If "
+"Sugar sees no \"known\" network when it starts, it does autoconnect to an Ad-"
+"hoc network."
+msgstr ""
+"TRUE ukampisti, Sugar wakichawixa ad-hoc llikanaka uñachayani, 1,6 "
+"jakhunimpi 11 jakhunimpi layanakataki. Sugarati qalltkasina jani llikanaka "
+"uñt'kani ukaxa, jupapachakiwa ad-hoc llikaru mantarakini."
+
+# Habilitar auto conexion a redes Ad-hoc
+#: ../data/org.sugarlabs.gschema.xml.h:75
+msgid "Enable Ad-hoc autoconnect"
+msgstr "Ad-hoc llikanakaru jupachaki mantañapataki ucht'aña"
+
+# Si es TRUE, Sugar va a auto conectarse a redes Ad-hoc
+#: ../data/org.sugarlabs.gschema.xml.h:76
+msgid "If TRUE, Sugar will autoconnect to Ad-hoc networks."
+msgstr ""
+"TRUE ukampisti, Sugar wakichataxa jupapachakiwa ad-hoc llikanakaru mantani."
+
+#: ../data/org.sugarlabs.gschema.xml.h:77 ../data/sugar.schemas.in.h:49
+msgid "GSM network username (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana apnaqirina chimpu sutipa (JANI APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:78 ../data/sugar.schemas.in.h:50
+msgid "GSM network username configuration (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana apnaqirina chimpu sutipa askichaña (JANI APNAQKAÑA/JANI "
+"APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:79 ../data/sugar.schemas.in.h:51
+msgid "GSM network password (DEPRECATED/UNUSED)"
+msgstr "GSM sata llikana ist'araña chimpupa (JANI APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:80 ../data/sugar.schemas.in.h:52
+msgid "GSM network password configuration (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana ist'araña chimpupa askichaña (JANI APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:81 ../data/sugar.schemas.in.h:53
+msgid "GSM network number (DEPRECATED/UNUSED)"
+msgstr "GSM sata llikana jakhupa (JANI APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:82 ../data/sugar.schemas.in.h:54
+msgid "GSM network telephone number configuration (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana tiliphunupana jakhupa askicht'awi (JANI APNAQKAÑA/JANI "
+"APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:83 ../data/sugar.schemas.in.h:55
+msgid "GSM network APN (DEPRECATED/UNUSED)"
+msgstr "GSM sata llikana APN wakichatapa (JANI APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:84 ../data/sugar.schemas.in.h:56
+msgid "GSM network access point name configuration (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana (APN) sata APN sata mantaña sutipa askicht'awi (JANI "
+"APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:85 ../data/sugar.schemas.in.h:57
+msgid "GSM network PIN (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana PIN sata sapa maynina mantañapa (JANI APNAQKAÑA/JANI "
+"APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:86 ../data/sugar.schemas.in.h:58
+msgid ""
+"GSM network personal identification number configuration (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM sata llikana PIN sata sapa maynina mantañapa jakhu chimpu askicht'awi ("
+"JANI APNAQKAÑA/JANI APANAQATA)"
+
+#: ../data/org.sugarlabs.gschema.xml.h:87 ../data/sugar.schemas.in.h:59
+msgid "GSM network PUK (DEPRECATED/UNUSED)"
+msgstr "GSM llikana PUK wakichatapa (JANI APNAQKAÑA/JANI APANAQATA)"
+
+# No sé por qué el traductor usa WAKICHAWI WAKICHATA WAKICHA para muchas cosas. HAsta ya parece una trabalengua. Hay que delimitar el uso de esta entrada.
+#: ../data/org.sugarlabs.gschema.xml.h:88 ../data/sugar.schemas.in.h:60
+msgid "GSM network personal unlock key configuration (DEPRECATED/UNUSED)"
+msgstr ""
+"GSM llikana PUK sata sapa mayni ist'arañapa chimpu jakhupa (JANI APNAQKAÑA/"
+"JANI APANAQATA)"
+
+# TODO: Agregar sumario
+#: ../data/org.sugarlabs.gschema.xml.h:89
+msgid "TODO: add summary"
+msgstr "TODO: siqichata yämpi yapxataña"
+
+# TODO: Agegar descripcion
+#: ../data/org.sugarlabs.gschema.xml.h:90
+msgid "TODO: add description"
+msgstr "TODO: Jamuqasjama qillqatampi yapxataña"
+
+# El traductor  a la expresión TONO VOCAL tradujo como ARU IST'AÑA "ESCUCHAR LA VOZ". Ojala funcione. Lo dejo así.
+#: ../data/org.sugarlabs.gschema.xml.h:91 ../data/sugar.schemas.in.h:65
+msgid "Pitch value for the speech sugar service"
+msgstr "Sugarana aru tuqitha Luqtasiñapataki Aru Ist'añana chimpuchawipa"
+
+#: ../data/org.sugarlabs.gschema.xml.h:92 ../data/sugar.schemas.in.h:66
+msgid "Pitch value used by the speech service in Sugar"
+msgstr "Sugarana Aru tuqitha Luqtasiñana apnaqata Aru Ist'añana chimpuchawipa"
+
+# En otro lugar <t'ijtawi> es usado para segundo. !!
+#: ../data/org.sugarlabs.gschema.xml.h:93 ../data/sugar.schemas.in.h:67
+msgid "Rate value for the speech sugar service"
+msgstr "Sugar satana arumpi luqtañataki jank'achawina chanipa"
+
+#: ../data/org.sugarlabs.gschema.xml.h:94 ../data/sugar.schemas.in.h:68
+msgid "Rate value used by the speech service in Sugar"
+msgstr "Sugar satana arumpi luqtañana apnaqata jank'achawina chanipa"
+
+#: ../data/org.sugarlabs.gschema.xml.h:95 ../data/sugar.schemas.in.h:69
+msgid "Activity update backend."
+msgstr "Jichhachaña sata lurawina backend satapa."
+
+# Si PACHA es usado para TIEMPO, por qué acá propone para periodo?  CLASE = YATIÑA T'AQA? Muy forzado.
+#: ../data/org.sugarlabs.gschema.xml.h:96 ../data/sugar.schemas.in.h:70
+msgid ""
+"Activity update backend module, followed by a period, followed by the class "
+"name."
+msgstr ""
+"Jichhachaña sata lurawina backend satapa; ukasti periodona arkata, kastana "
+"sutipampi arkatawa."
+
+# En otros lugares ya se esta usando JICHHACHAWI como ACTUALIZACIÓN. Incluso en los textos o cuadernos de trabajo del Ministerio de Educación. Así que propongoi ya no usar MACHAQACHAWI que más que ACTUALIZAR suena como RENOVAR.
+#: ../data/org.sugarlabs.gschema.xml.h:97 ../data/sugar.schemas.in.h:71
+msgid "Microformat update URL."
+msgstr "Jichhachawi isk'a wakichawini URL."
+
+# Oh. Ahora MODOLU ya significa WAKICHAWI. Esta palabra ya parece un comodín para todo. !!
+#: ../data/org.sugarlabs.gschema.xml.h:98 ../data/sugar.schemas.in.h:72
+msgid ""
+"URL used by the microformat update backend for activity update information."
+msgstr ""
+"Yatiyawi Jichhachaña lurawina modulo backend satapa apnaqata isk'a "
+"wakichawini URL."
+
+# FRECUENCIA = Phuqawi
+#: ../data/org.sugarlabs.gschema.xml.h:99 ../data/sugar.schemas.in.h:73
+msgid "Automatic update frequency."
+msgstr "Jupapachpa jichhachata phuqawi."
+
+#: ../data/org.sugarlabs.gschema.xml.h:100 ../data/sugar.schemas.in.h:74
+msgid ""
+"Frequency of automatic activity updates, measured in days. 0 means disabled."
+msgstr ""
+"Urutha ururu tuputa lurawinakana jupapachaki jichhachasita phuqawipa (0 sata "
+"ch'usaxa Sayt'ayata siwa)."
+
+#: ../data/org.sugarlabs.gschema.xml.h:101 ../data/sugar.schemas.in.h:75
+msgid "Timestamp of last activity update."
+msgstr "Lurawina qhipqhipa jichhachasitapa pacha chimpu."
+
+#: ../data/org.sugarlabs.gschema.xml.h:102 ../data/sugar.schemas.in.h:76
+msgid ""
+"A unix timestamp (seconds since epoch) of the last successful activity "
+"update."
+msgstr ""
+"Lurawina qhipqhipa suma jichhachasitapana Unix Pacha satapa maya chimpu (uka "
+"pachatha ch'ipxtatatha tuputa)."
+
+# URL correspondiente al update.json del nuevo ASLO
+#: ../data/org.sugarlabs.gschema.xml.h:103
+msgid "New ASLO update.json URL."
+msgstr "Machaqa ASLO satana update.json satapampi chikayata URL."
+
+# URL usado por el nuevo ASLO para descargar datos de las actividades
+#: ../data/org.sugarlabs.gschema.xml.h:104
+msgid "URL used by the new ASLO updater to download activity data."
+msgstr ""
+"Lurawinakana yatxatanakapa apaqañataki machaqa ASLO satana apnaqata URL."
+
+# Una descripción del hardware disponible al usuario.
+#: ../data/org.sugarlabs.gschema.xml.h:105 ../data/sugar.schemas.in.h:77
+msgid "A description of the hardware available to the user."
+msgstr "Apnaqirina amparapa jak'ankiri hardwarena jamuqasjama yatiyawipa."
+
+# Otra vez WAKICHATA como ACERCA. !!
+#: ../data/org.sugarlabs.gschema.xml.h:106 ../data/sugar.schemas.in.h:78
+msgid "This string is displayed in the control panel, about computer section."
+msgstr ""
+"Aka qillqataxa askichasiñanakaja ukana uñachayatawa, ukasti Kumputaruraja "
+"Tuqitha siskixa uka chiqankiwa."
+
+#  "Acerca de mí"
+#: ../extensions/cpsection/aboutme/__init__.py:23
+msgid "About Me"
+msgstr "Naya tuqitha"
+
+#  "Debe ingresar un nombre."
+#: ../extensions/cpsection/aboutme/model.py:51
+msgid "You must enter a name."
+msgstr "Maya sutimpi chimpt'añamawa."
+
+# ¿uñamt'a = tonalidad?  UÑAMT'A es una formación muy extraña. ¿Qué es M en uñamt'a?
+#: ../extensions/cpsection/aboutme/model.py:83
+#, python-format
+msgid "stroke:   color=%s hue=%s"
+msgstr "qawaya:  sami=%s samiqhanta=%s"
+
+#  "borde:   %s"
+#: ../extensions/cpsection/aboutme/model.py:86
+#, python-format
+msgid "stroke:   %s"
+msgstr "qawaya:  %s"
+
+#  "relleno:     color=%s tonalidad=%s"
+#: ../extensions/cpsection/aboutme/model.py:88
+#, python-format
+msgid "fill:     color=%s hue=%s"
+msgstr "phuqacha:    sami=%s samiqhanta =%s"
+
+#  "relleno:     %s"
+#: ../extensions/cpsection/aboutme/model.py:90
+#, python-format
+msgid "fill:     %s"
+msgstr "phuqacha:    %s"
+
+#  "Error en modificadores de color especificados."
+#: ../extensions/cpsection/aboutme/model.py:102
+msgid "Error in specified color modifiers."
+msgstr "Saminaka mayjt'ayirixa pantjatawa."
+
+# "Especificar" como "phuqachata"? No. Especificar es concretizar, individualizar, precisar, enfocar, pero nunca COMPLETAR. Por tanto no se pude usar PHUQACHA-
+#: ../extensions/cpsection/aboutme/model.py:105
+msgid "Error in specified colors."
+msgstr "Saminaka ajllitaxa pantjawa."
+
+#  "Clic para cambiar su color:"
+#: ../extensions/cpsection/aboutme/view.py:243
+msgid "Click to change your color:"
+msgstr "Samichata mayjt'ayañataki q'upt'ma:"
+
+# Seleccionar género:
+# Obs. ¿Género de qué? ¿sexo?
+#: ../extensions/cpsection/aboutme/view.py:294
+#: ../src/jarabe/intro/window.py:203
+msgid "Select gender:"
+msgstr "Chachati warmicha yaqhacha uka ajlliña:"
+
+#  "Acerca de mi computadora"
+#: ../extensions/cpsection/aboutcomputer/__init__.py:21
+msgid "About my Computer"
+msgstr "Kumputaruraja tuqitha"
+
+#  "No disponible"
+#: ../extensions/cpsection/aboutcomputer/model.py:37
+msgid "Not available"
+msgstr "Chhaqata"
+
+#  "Identidad"
+#: ../extensions/cpsection/aboutcomputer/view.py:76
+msgid "Identity"
+msgstr "Khiti kankaña"
+
+#: ../extensions/cpsection/aboutcomputer/view.py:87
+msgid "Model:"
+msgstr "Kasta:"
+
+# ¿Pero cómo expresamos SERIE? Jakhu chimpu suena como MARCA DE NÚMERO.
+#: ../extensions/cpsection/aboutcomputer/view.py:91
+msgid "Serial Number:"
+msgstr "Seriena Jakhupa:"
+
+#  "Software"
+#: ../extensions/cpsection/aboutcomputer/view.py:103
+msgid "Software"
+msgstr "Software"
+
+# Apthapiwi suena muy general como RECOLECCIÓN. ¿aLGO PARA ENSAMBLE?
+#
+#: ../extensions/cpsection/aboutcomputer/view.py:112
+msgid "Build:"
+msgstr "Apthapïwi:"
+
+#  "Azúcar:"
+#: ../extensions/cpsection/aboutcomputer/view.py:117
+msgid "Sugar:"
+msgstr "Sugar:"
+
+# Por qué WAKICHATA?
+#: ../extensions/cpsection/aboutcomputer/view.py:122
+msgid "Firmware:"
+msgstr "Firmware:"
+
+#  "Firmware de la red inalámbrica:"
+#: ../extensions/cpsection/aboutcomputer/view.py:127
+msgid "Wireless Firmware:"
+msgstr "Inawisa ch'usanama jutiri llikana Firmware satapa:"
+
+# %d días atrás
+#: ../extensions/cpsection/aboutcomputer/view.py:134
+#, python-format
+msgid "%d days ago"
+msgstr "%d urunaka qhipa"
+
+#: ../extensions/cpsection/aboutcomputer/view.py:136
+#: ../src/jarabe/journal/journaltoolbox.py:169
+msgid "Today"
+msgstr "Jichhüru"
+
+# Wakicht'awi = Sistema. SISTEMA es una palabra muy difícil de traducir. En este caso estoy siguiendo al traductor anterior, quien propone WAKICHAWI (se agregó solo el sufijo -T'A).
+#: ../extensions/cpsection/aboutcomputer/view.py:139
+msgid "Last system update:"
+msgstr "Wakicht'awina qhipqhipa jichhachasitapa:"
+
+# Kama- en Bertonio es CREAR, y CREADOR o AUTOR obviamente es KAMIRI. Sería necesario recuperar esta palabra para AUTOR o CREADOR.
+#: ../extensions/cpsection/aboutcomputer/view.py:150
+msgid "Copyright and License"
+msgstr "Kamirina wakisiripa"
+
+#. TRANS: The word "Sugar" should not be translated.
+#: ../extensions/cpsection/aboutcomputer/view.py:169
+msgid ""
+"Sugar is the graphical user interface that you are looking at. Sugar is free "
+"software, covered by the GNU General Public License, and you are welcome to "
+"change it and/or distribute copies of it under certain conditions described "
+"therein."
+msgstr ""
+"Sugar wakichawixa jumataki uchata jamuqata ajanupawa. Sugar sata software "
+"wakichawixa taqitakiwa; akaxa GNU Kamachinakana qhananchasi, ukatha maynitha "
+"mayniru t'uqiyañasa, apaqañasa, apnaqañasa, jaqukipañasa, lurasiskakisphawa."
+
+# Taqi inuqata:  ¿LICENCIA COMPLETA? Me parece que no hay relación.
+#: ../extensions/cpsection/aboutcomputer/view.py:181
+msgid "Full license:"
+msgstr "Licencia phuqatawa:"
+
+#: ../extensions/cpsection/background/__init__.py:21
+msgid "Background"
+msgstr "Manqhäxa"
+
+#: ../extensions/cpsection/background/view.py:48
+msgid "Select a background:"
+msgstr "Manqha thaqaña"
+
+#: ../extensions/cpsection/background/view.py:57
+msgid "Clear background"
+msgstr "Manqhäxa q'umachaña"
+
+#  "Fecha y hora"
+#: ../extensions/cpsection/datetime/__init__.py:21
+msgid "Date & Time"
+msgstr "Uru, ukatha, urasa chimpu"
+
+# Error: la zona horaria no existe.
+#: ../extensions/cpsection/datetime/model.py:100
+msgid "Error: timezone does not exist."
+msgstr "Pantjawi: suyu pachaxa janiwa utjkiti."
+
+#  "Cuadro"
+#: ../extensions/cpsection/frame/__init__.py:21
+msgid "Frame"
+msgstr "K'achachaña wakichata"
+
+#  "nunca"
+#: ../extensions/cpsection/frame/view.py:26
+msgid "never"
+msgstr "janipuni"
+
+#  "instantáneo"
+#: ../extensions/cpsection/frame/view.py:27
+msgid "instantaneous"
+msgstr "mäpita"
+
+# La pluralización en el aimara no siempre es obligatoria.
+#: ../extensions/cpsection/frame/view.py:28
+#, python-format
+msgid "%s seconds"
+msgstr "%s ch'ipxta"
+
+#  "Retraso de activación"
+#: ../extensions/cpsection/frame/view.py:52
+msgid "Activation Delay"
+msgstr "Qhantayaña qhipartayawi"
+
+# "Retraso de activación"
+#: ../extensions/cpsection/frame/view.py:68
+msgid "Activation Area"
+msgstr "Qhantayaña katupa"
+
+#  "Esquina"
+#: ../extensions/cpsection/frame/view.py:85
+msgid "Corner"
+msgstr "K'uchu"
+
+# Qawaya tambien es usado para LADO
+#: ../extensions/cpsection/frame/view.py:104
+msgid "Edge"
+msgstr "Qawaya"
+
+#: ../extensions/cpsection/frame/view.py:123
+msgid "Size"
+msgstr "Taña"
+
+#: ../extensions/cpsection/frame/view.py:221
+msgid "toolbar size"
+msgstr "Wakichatanaka siqina tañapa"
+
+#: ../extensions/cpsection/frame/view.py:226
+msgid "exact corner or edge"
+msgstr "wit'u jani uka mujina k'uchu"
+
+#: ../extensions/cpsection/frame/view.py:228
+msgid "exact corner"
+msgstr "wit'u qawaya"
+
+#: ../extensions/cpsection/frame/view.py:230
+msgid "exact edge"
+msgstr "qawaya muyta"
+
+#: ../extensions/cpsection/frame/view.py:232
+msgid "ignored"
+msgstr "jani yäqata"
+
+#. TRANS: px as in pixels
+#: ../extensions/cpsection/frame/view.py:235
+msgid "{}px"
+msgstr "{}píxeles chimpu"
+
+#  "Teclado"
+#: ../extensions/cpsection/keyboard/__init__.py:21
+#: ../extensions/cpsection/keyboard/view.py:38
+msgid "Keyboard"
+msgstr "T'iqiqiyaña"
+
+#  "Modelo de teclado"
+#: ../extensions/cpsection/keyboard/view.py:240
+msgid "Keyboard Model"
+msgstr "T'iqiqiyañana kastapa"
+
+# Oh, ahora WAKICHATA significa DISEÑO !!!!!!!!!
+#: ../extensions/cpsection/keyboard/view.py:301
+msgid "Key(s) to change layout"
+msgstr "Sich'suta mayjt'ayañapataki limiña(naka)"
+
+#: ../extensions/cpsection/keyboard/view.py:369
+msgid "Keyboard Layout(s)"
+msgstr "T'iqiqiyañana sich'sutapa(naka)"
+
+#  "Idioma"
+#: ../extensions/cpsection/language/__init__.py:21
+#: ../extensions/cpsection/language/view.py:39
+msgid "Language"
+msgstr "Jaqi Aru"
+
+#: ../extensions/cpsection/language/model.py:29
+msgid "Could not access ~/.i18n. Create standard settings."
+msgstr ""
+"Akïri ~/.i18n ukaruxa janiwa mantañjamäkiti. Taqi suyuna apnaqatäkixa uka "
+"askicht'awiwa kamaña."
+
+#: ../extensions/cpsection/language/model.py:156
+#, python-format
+msgid "Language for code=%s could not be determined."
+msgstr "Código=%s aruxa janiwa amuyasiti."
+
+#: ../extensions/cpsection/language/model.py:179
+#, python-format
+msgid "Sorry I do not speak '%s'."
+msgstr "Jichhasti, janiwa yatkti '%s'."
+
+#: ../extensions/cpsection/language/view.py:75
+msgid ""
+"Add languages in the order you prefer. If a translation is not available, "
+"the next in the list will be used."
+msgstr ""
+"Kawkïri munkta uka yaqha arunakampi yapt'ma. Aru jaqukipañatixa jani utjkani "
+"ukaxa, lista aytawinxa arkirïki ukawa apnaqasini."
+
+#: ../extensions/cpsection/language/view.py:383
+#, python-format
+msgid "Error writting language configuration (%s)"
+msgstr "aru (%s) wakichaña imañana pantjata"
+
+#: ../extensions/cpsection/modemconfiguration/__init__.py:21
+msgid "Modem"
+msgstr "Módem utjiri"
+
+#: ../extensions/cpsection/modemconfiguration/view.py:94
+msgid ""
+"You will need to provide the following information to set up a mobile "
+"broadband connection to a cellular (3G) network."
+msgstr ""
+"(3G) telefonía celularana banda ancha wakichäwinakaparu mantañatakixa akïri "
+"yatiyañanakawa wakisi."
+
+#: ../extensions/cpsection/modemconfiguration/view.py:117
+msgid "Country:"
+msgstr "Mama marka:"
+
+# Pero IRNAQIRI es 'trabajador' y el que PROVEE?
+#: ../extensions/cpsection/modemconfiguration/view.py:118
+msgid "Provider:"
+msgstr "Luqtasiri:"
+
+# Fijense: otra vez se hecha mano al comodín WAKICHAWI, que bien puede sonar a PROGRAMA. ¿Cuál es tu PALN? = Kunasa amtamaxa?  Con qué plan has venido? = Kuna AMTAmpisa juttaxa?
+#: ../extensions/cpsection/modemconfiguration/view.py:119
+msgid "Plan:"
+msgstr "Amtawi:"
+
+#: ../extensions/cpsection/modemconfiguration/view.py:160
+msgid "Username:"
+msgstr "Apnaqirina chimpu sutipa:"
+
+#: ../extensions/cpsection/modemconfiguration/view.py:167
+msgid "Password:"
+msgstr "Ist'araña chimpu:"
+
+#: ../extensions/cpsection/modemconfiguration/view.py:174
+msgid "Number:"
+msgstr "Jakhu:"
+
+#: ../extensions/cpsection/modemconfiguration/view.py:181
+msgid "Access Point Name (APN):"
+msgstr "Mantaña punkuna sutipa (APN):"
+
+#: ../extensions/cpsection/modemconfiguration/view.py:188
+msgid "Personal Identity Number (PIN):"
+msgstr "Sapa mayni jaqina chimpupa jakhu (PIN):"
+
+#: ../extensions/cpsection/modemconfiguration/model.py:162
+#, python-format
+msgid "Plan #%s"
+msgstr "Amtawi #%s"
+
+#: ../extensions/cpsection/modemconfiguration/model.py:292
+#, python-format
+msgid "Provider %s"
+msgstr "Luqtasiri %s"
+
+# A todo tipo de redes, de pescar, la tela de la araña es un SISTEMA organizado para un fin. Por eso porpongo que se use LLIKA.
+#: ../extensions/cpsection/network/__init__.py:21
+#: ../extensions/cpsection/network/view.py:30
+msgid "Network"
+msgstr "Llika"
+
+#: ../extensions/cpsection/network/model.py:88
+msgid "State is unknown."
+msgstr "Jani yatita kankaña."
+
+#: ../extensions/cpsection/network/model.py:104
+msgid "Error in specified radio argument use on/off."
+msgstr "Pantjatawa, rayru qhantayañatakixa akïri on/off uka limt'ma."
+
+# Ahora qué significa WAKISIRI? Wakisiri katu 0 Argumento especificado? A ver qué dicen.
+#: ../extensions/cpsection/network/model.py:197
+msgid "Error in specified argument use 0/1."
+msgstr "Wakisiri katu pantjatïpana, 0/1 uka limt'ma."
+
+#: ../extensions/cpsection/network/view.py:65
+msgid "Wireless"
+msgstr "Ch'usanama sariri"
+
+# El radio inalámbrico debe estar apagado para ahorrar vida a la batería.
+#: ../extensions/cpsection/network/view.py:73
+msgid "The wireless radio may be turned off to save battery life."
+msgstr ""
+"Ch'usanama sariri raryuxa jiwarayatäñapawa watiriyana juk'ampi "
+"jakañapatakixa."
+
+#: ../extensions/cpsection/network/view.py:86
+msgid "Radio"
+msgstr "Raryu"
+
+# Descartar las conexiones inalámbricas si usted tiene problemas para conectarse a la red
+#: ../extensions/cpsection/network/view.py:103
+msgid ""
+"Discard wireless connections if you have trouble connecting to the network"
+msgstr ""
+"Jumatixa llikaru jani mantirjamäksta ukaxa, ch'usanama jutiri qhantatanaka "
+"apamukma."
+
+# Descartar las conexiones inalámbricas
+#: ../extensions/cpsection/network/view.py:113
+msgid "Discard wireless connections"
+msgstr "Ch'usanama jutiri qhantata apamukma"
+
+#: ../extensions/cpsection/network/view.py:129
+msgid "Collaboration"
+msgstr "Yanapt'asiwi"
+
+#: ../extensions/cpsection/network/view.py:137
+msgid ""
+"The server is the equivalent of what room you are in; people on the same "
+"server will be able to see each other, even when they aren't on the same "
+"network."
+msgstr ""
+"Mä uta manqhanksnasa ukhamawa servidor sata luqtasiniri chiqaxa; Luqtasiniri "
+"chiqankiri jaqinakaxa jupanakpuraxa uñjasipxasphawa, janisa kikipa "
+"llikankapxpha."
+
+#: ../extensions/cpsection/network/view.py:147
+msgid "Server:"
+msgstr "Luqtasiri:"
+
+#: ../extensions/cpsection/network/view.py:163
+msgid ""
+"Social Help is a forum that lets you connect with developers and discuss "
+"Sugar Activities.  Changing servers means discussions will happen in a "
+"different place with different people."
+msgstr ""
+"Taqini Yanapasiña sata wakichawixa yaqhanakampi mayachasiñatakiwa, ukhamata "
+"Sugar wakichatanaka tuqitha aruskipañataki. Luqtasiri  mayjt'ayatathxa, "
+"aruskipasiwinakaxa yaqha tuqinwa apasxarakixa."
+
+#: ../extensions/cpsection/network/view.py:173
+msgid "Social Help Server:"
+msgstr "Yanapawi sata Luqtasiri:"
+
+# Si energía decimos CH'AMA, cómo diremos FUERZA?
+#: ../extensions/cpsection/power/__init__.py:24
+msgid "Power"
+msgstr "Ch'ama"
+
+# on/off  = No se debe traducir.
+#: ../extensions/cpsection/power/model.py:90
+msgid "Error in automatic pm argument, use on/off."
+msgstr ""
+"Ch'ama jupapacha apnaqasiyaña pantjtipanxa, on/off sata qhantayañatakisa "
+"jiwayañatakisa limt'ma."
+
+#: ../extensions/cpsection/power/view.py:45
+msgid "Power management"
+msgstr "Ch'amana apnaqasiwipa"
+
+#: ../extensions/cpsection/updater/__init__.py:21
+msgid "Software Update"
+msgstr "Software Jichhachawi"
+
+#: ../extensions/cpsection/updater/view.py:70
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"Software jichhachawixa pantjawinaka askichixa, jani chijiru puriñathsa "
+"jark'aqasiwa, ukhamarusa, machaqa kankañanakampiwa yanapt'asinixa."
+
+#: ../extensions/cpsection/updater/view.py:84
+msgid "Update in progress..."
+msgstr "Jichhachasiskiwa..."
+
+#: ../extensions/cpsection/updater/view.py:119
+msgid "Checking for updates..."
+msgstr "Jichhachawinaka thaqaski..."
+
+#: ../extensions/cpsection/updater/view.py:121
+msgid "Installing updates..."
+msgstr "Jichhachawinaka utanuqayaski..."
+
+#: ../extensions/cpsection/updater/view.py:150
+#, python-format
+msgid "Checking %s..."
+msgstr "Yant'askiwa %s..."
+
+#: ../extensions/cpsection/updater/view.py:152
+msgid "Looking for updates..."
+msgstr "Jichhachawinakawa thaqaski..."
+
+#: ../extensions/cpsection/updater/view.py:154
+#, python-format
+msgid "Downloading %s..."
+msgstr "Apaqaskiwa %s..."
+
+#  "Actualizando %s..."
+#: ../extensions/cpsection/updater/view.py:156
+#, python-format
+#, python-format,
+msgid "Updating %s..."
+msgstr "Jichhachastiwa %s..."
+
+# Oh. Ahora SOFTWARE es AMUYT'AWI???? !!!!
+#: ../extensions/cpsection/updater/view.py:166
+msgid "Your software is up-to-date"
+msgstr "Softwaremaxa jichhachatawa"
+
+# Ahora WAKICHAÑA significa INSTALAR. !
+#: ../extensions/cpsection/updater/view.py:168
+#, python-format
+#, python-format,
+msgid "You can install %s update"
+msgid_plural "You can install %s updates"
+msgstr[0] "Jumaxa %s jichhachawi utt'ayasmawa"
+msgstr[1] "Jumaxa %s jichhachawinaka utt'ayasmawa"
+
+# No se puede conectar con el servidor de actividad
+#: ../extensions/cpsection/updater/view.py:183
+msgid "Can't connect to the activity server"
+msgstr "Lurawi luqtasinirimpixa janiwa jakisiñjamäkiti"
+
+# Verificar su conexión a internet e intentar nuevamente, o intenta más tarde
+#: ../extensions/cpsection/updater/view.py:186
+msgid "Verify your connection to internet and try again, or try again later"
+msgstr ""
+"Internetana qhantatätapa uñakipma, machaqatha qhantayaña yant'ma, janukaxa, "
+"maysk'ampiru yant'ma."
+
+#: ../extensions/cpsection/updater/view.py:206
+#, python-format
+#, python-format,
+msgid "%s update was installed"
+msgid_plural "%s updates were installed"
+msgstr[0] "%s jichhachataxa utt'ayatäxiwa"
+msgstr[1] "%s jichhachatanakaxa utt'ayatäxiwa"
+
+# machaqaptayaña  = INSTALACION???
+#: ../extensions/cpsection/updater/view.py:288
+msgid "Install selected"
+msgstr "Utt'ayawixa ajllitäxiwa"
+
+#: ../extensions/cpsection/updater/view.py:307
+#, python-format
+msgid "Download size: %s"
+msgstr "Apaqawina tañapa: %s"
+
+#: ../extensions/cpsection/updater/view.py:399
+#, python-format
+msgid "From version %(current)s to %(new)s (Size: %(size)s)"
+msgstr ""
+"Nayrïri %(current)s wakichatatha, jichha %(new)s (Size: %(size)s) wakichataru"
+
+#: ../extensions/cpsection/updater/view.py:406
+#, python-format
+msgid "Version %(version)s (Size: %(size)s)"
+msgstr "Akïri %(version)s (Taña: %(size)s) wakichawi"
+
+# "ni" es una conjunción de negaciones del castellano NI MAYA = NI UNO. :)
+#. TRANS: download size is 0
+#: ../extensions/cpsection/updater/view.py:423
+msgid "None"
+msgstr "Janiwa kunasa khitisa"
+
+#. TRANS: download size of very small updates
+#: ../extensions/cpsection/updater/view.py:426
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANS: download size of small updates, e.g. '250 KB'
+#: ../extensions/cpsection/updater/view.py:429
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANS: download size of updates, e.g. '2.3 MB'
+#: ../extensions/cpsection/updater/view.py:432
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../extensions/cpsection/webaccount/__init__.py:24
+msgid "Web Services"
+msgstr "Web utjirinaka"
+
+#: ../extensions/cpsection/webaccount/view.py:65
+#, python-format
+msgid ""
+"No web services are installed.\n"
+"Please visit %s for more details."
+msgstr ""
+"Janiwa kuna Web Luqtasirisa utt'ayatäkiti.\n"
+"Mira suma, %s uka tumpma, juk'ampi yatiñatakixa."
+
+#: ../extensions/deviceicon/audio.py:69
+msgid "My Audio"
+msgstr "Ist'añaja"
+
+#: ../extensions/deviceicon/audio.py:330
+msgid "Speaker"
+msgstr "Art'asiri"
+
+#: ../extensions/deviceicon/audio.py:331
+msgid "Microphone"
+msgstr "Mikruphunu"
+
+#: ../extensions/deviceicon/battery.py:69
+msgid "My Battery"
+msgstr "Watiriyaja"
+
+#: ../extensions/deviceicon/battery.py:151
+msgid "Removed"
+msgstr "Chhaqtayatawa"
+
+#: ../extensions/deviceicon/battery.py:154
+msgid "Charging"
+msgstr "Ch'amanchaskiwa"
+
+#: ../extensions/deviceicon/battery.py:157
+msgid "Very little power remaining"
+msgstr "Pisi ch'amanikïxiwa watiriyaxa"
+
+#. TRANS: do not translate %(hour)d:%(min).2d  it is a variable,
+#. only translate the word "remaining"
+#: ../extensions/deviceicon/battery.py:164
+#, python-format
+msgid "%(hour)d:%(min).2d remaining"
+msgstr "%(hour)d:%(min).2d ukjawa utjaski"
+
+#  "Cargada"
+#: ../extensions/deviceicon/battery.py:167
+msgid "Charged"
+msgstr "Ch'amanchata"
+
+#: ../extensions/deviceicon/display.py:187
+msgid "My Display"
+msgstr "Pantallaja"
+
+#: ../extensions/deviceicon/display.py:189
+msgid "Take a screenshot"
+msgstr "Pantalla phutjama apsuña"
+
+#: ../extensions/deviceicon/display.py:211
+msgid "Brightness"
+msgstr "Lliphi"
+
+#: ../extensions/deviceicon/display.py:239
+msgid "Display"
+msgstr "Pantalla"
+
+#: ../extensions/deviceicon/frame.py:53
+msgid "Show my keyboard"
+msgstr "T'iqiqiyaja uñachayaña"
+
+#: ../extensions/deviceicon/network.py:48
+#, python-format
+msgid "IP address: %s"
+msgstr "IP thaki katjawi: %s"
+
+#: ../extensions/deviceicon/network.py:80
+#: ../extensions/deviceicon/network.py:297
+#: ../src/jarabe/desktop/networkviews.py:134
+#: ../src/jarabe/desktop/networkviews.py:510
+msgid "Disconnect"
+msgstr "Mistuña"
+
+# MAYACHASA... juntar, unir, pero ¿conectar?
+#: ../extensions/deviceicon/network.py:106
+#: ../extensions/deviceicon/network.py:290
+#: ../src/jarabe/desktop/networkviews.py:250
+#: ../src/jarabe/desktop/networkviews.py:552
+#: ../src/jarabe/desktop/networkviews.py:696
+msgid "Connecting..."
+msgstr "Jakisiyaskiwa..."
+
+# Maya 1 = Mayachaña  = UNIR., pero no es CONECTAR:
+#: ../extensions/deviceicon/network.py:110
+#: ../extensions/deviceicon/network.py:181
+#: ../src/jarabe/desktop/networkviews.py:257
+#: ../src/jarabe/desktop/networkviews.py:558
+#: ../src/jarabe/desktop/networkviews.py:702
+msgid "Connected"
+msgstr "Jakisiyatawa"
+
+# Jani mayachaña utjiti = traducción insuficiente... ¿Donde está el sentido de "inalámbrica"?
+#: ../extensions/deviceicon/network.py:123
+msgid "No wireless connection"
+msgstr "Ch'usanama jakisiyataxa janiwa utjkiti"
+
+# El traductor anterior hace una buena propuesta para el canal, pero que se olvidó en este lugar: LAYA.
+#: ../extensions/deviceicon/network.py:137
+#: ../extensions/deviceicon/network.py:140
+msgid "Channel"
+msgstr "Laya"
+
+#: ../extensions/deviceicon/network.py:138
+#: ../src/jarabe/journal/expandedentry.py:386
+#: ../src/jarabe/journal/listmodel.py:191
+#: ../src/jarabe/journal/listmodel.py:199
+msgid "Unknown"
+msgstr "Jani uñt'ata"
+
+# Ah, pero buena idea. Que CABLE se SIMPA. Es una simpática palabra. Gracias.
+#: ../extensions/deviceicon/network.py:156
+msgid "Wired Network"
+msgstr "Simpjata Llika"
+
+#: ../extensions/deviceicon/network.py:184
+msgid "Speed"
+msgstr "Jank'achawi"
+
+#: ../extensions/deviceicon/network.py:209
+msgid "Wireless modem"
+msgstr "Ch'usanama sariri módem wakichata"
+
+#: ../extensions/deviceicon/network.py:278
+msgid "Please wait..."
+msgstr "Suyt'ma, mira suma..."
+
+#: ../extensions/deviceicon/network.py:282
+#: ../src/jarabe/desktop/networkviews.py:128
+#: ../src/jarabe/desktop/networkviews.py:504
+#: ../src/jarabe/desktop/networkviews.py:647
+msgid "Connect"
+msgstr "Jakisiyaña"
+
+#: ../extensions/deviceicon/network.py:283
+msgid "Disconnected"
+msgstr "Mistuta"
+
+# "Cancelar"  no es TERMINAR. Cancelar es INTERRUMPIR.- abolir - abrogar - anular - derogar - rescindir
+#: ../extensions/deviceicon/network.py:289
+#: ../src/jarabe/controlpanel/toolbar.py:121
+#: ../src/jarabe/frame/activitiestray.py:693
+#: ../src/jarabe/frame/activitiestray.py:815
+#: ../src/jarabe/frame/activitiestray.py:848
+#: ../src/jarabe/journal/expandedentry.py:157
+#: ../src/jarabe/journal/journaltoolbox.py:587
+#: ../src/jarabe/journal/palettes.py:166
+msgid "Cancel"
+msgstr "Qulluyaña"
+
+# Trate de conectarse de nuevo
+#: ../extensions/deviceicon/network.py:327
+msgid "Try connection again"
+msgstr "Mayampi qhantayaña yant'ma"
+
+#: ../extensions/deviceicon/network.py:330
+#, python-format
+msgid "Error: %s"
+msgstr "Pantjata: %s"
+
+# Sugerencia:% s
+#: ../extensions/deviceicon/network.py:334
+#, python-format
+msgid "Suggestion: %s"
+msgstr "Unanchayawi: %s"
+
+# Conectado a% s
+#: ../extensions/deviceicon/network.py:344
+#, python-format
+msgid "Connected for %s"
+msgstr "Akïri %s ukaru mantatawa"
+
+#: ../extensions/deviceicon/network.py:349
+#: ../extensions/deviceicon/network.py:350
+#, python-format
+msgid "%d KB"
+msgstr "%d KB"
+
+# Revise su Pin / configuración Puk.
+#: ../extensions/deviceicon/network.py:355
+msgid "Check your PIN/PUK configuration."
+msgstr "PIN/PUK ukanakamana askicht'awipa uñakipma."
+
+# Compruebe el nombre del punto de acceso (APN) de configuración
+#: ../extensions/deviceicon/network.py:358
+msgid "Check your Access Point Name (APN) configuration"
+msgstr "Akïri (APN) sata mantaña punkuna sutipana askichasiwipa uñakipma"
+
+# WAKICHANA como configuración? En qué quedamos?
+#: ../extensions/deviceicon/network.py:362
+msgid "Check the Number configuration."
+msgstr "Askichawiru mantasina Jakhu uñakipma."
+
+# Compruebe la configuración.
+#: ../extensions/deviceicon/network.py:364
+msgid "Check your configuration."
+msgstr "Askichawima uñakipasma."
+
+#: ../extensions/deviceicon/network.py:619
+msgid "Mesh Network"
+msgstr "Malla sata Llika"
+
+#: ../extensions/deviceicon/network.py:665
+#, python-format
+msgid "Mesh Network %s"
+msgstr "Malla sata Llika %s"
+
+#: ../extensions/deviceicon/network.py:782
+msgid "No GSM connection available."
+msgstr "GSM sataru mantañaxa janiwa utjkiti."
+
+# KAMAÑA = crear (Bertonio).
+#: ../extensions/deviceicon/network.py:783
+msgid "Create a connection in My Settings."
+msgstr "Askichatanakajaru, maya jakisiyiri kamaña."
+
+# Conste que hay diferencia entre DECIR y HABLAR... Esta propuesta es más HABLAR. Bueno, que así quede.
+#: ../extensions/deviceicon/speech.py:49
+msgid "Speech"
+msgstr "Arsuña"
+
+# Modiificador antes de NUCLEO.
+#: ../extensions/deviceicon/speech.py:72
+#: ../extensions/deviceicon/speech.py:147
+#: ../extensions/deviceicon/speech.py:152
+msgid "Say selected text"
+msgstr "Ajllita qillqata sasa saña"
+
+#: ../extensions/deviceicon/speech.py:80
+msgid "Stop playback"
+msgstr "Katuqaña sayt'ayaña"
+
+# Otra cosa: ¿a cuál de los tonos se refiere? Al tono de SONIDO o al de COLOR?
+#: ../extensions/deviceicon/speech.py:89
+msgid "Pitch"
+msgstr "Tono"
+
+# T'ijtäwi suena más como Correr, correteo, pero no velocidad.
+#: ../extensions/deviceicon/speech.py:104
+msgid "Rate"
+msgstr "Jank'achawi"
+
+# KATUQAÑA significa RECIBIR. Ojala funcione como GRABAR. !!!
+#: ../extensions/deviceicon/speech.py:142
+msgid "Pause playback"
+msgstr "Katuqaña suyt'ayaña"
+
+#: ../extensions/deviceicon/touchpad.py:36
+msgid "finger"
+msgstr "luk'ana"
+
+# Estilo UÑAQA? Ojala funcione.  ESTILO:  Modo, manera, forma, modo, costumbre.
+#: ../extensions/deviceicon/touchpad.py:36
+msgid "stylus"
+msgstr "uñaqa"
+
+#: ../extensions/deviceicon/touchpad.py:61
+msgid "My touchpad"
+msgstr "Luk'anampi qillqaña wakichataja"
+
+#: ../extensions/deviceicon/volume.py:62 ../src/jarabe/view/palettes.py:210
+msgid "Show contents"
+msgstr "Wakichata yänaka qhanstayaña"
+
+# Oye! Ahora WAKISIRI significa FAVORITO.  Waki waki waki, ¿no hay otra palabra?
+#: ../data/sugar.schemas.in.h:15
+msgid "Favorites Layout"
+msgstr "Chuymaru puriri yänaka sich'suña"
+
+# Wakichata uñanaqani wakisirinaka. = Distribución de las actividades favoritas. = No hay sentido.
+#: ../data/sugar.schemas.in.h:16
+msgid "Layout of the favorites view."
+msgstr "Chuymataki khusa lurawinaka t'uqiyaña."
+
+# Favoritos reanudar el modo de
+#: ../data/sugar.schemas.in.h:17
+msgid "Favorites resume mode"
+msgstr "Chuymataki khusa yänaka kunjamathsa wasitatha qalltayaña"
+
+# En el modo de curriculum vitae, hacer clic en un icono favorito hará que la última entrada para que la actividad se reanuda.
+#: ../data/sugar.schemas.in.h:18
+msgid ""
+"When in resume mode, clicking on a favorite icon will cause the last entry "
+"for that activity to be resumed."
+msgstr ""
+"Kunapachatixa, wasitatha qalltañanxa, chuymaru puriri yänaka limiña "
+"limt'asinxa, uka lurawina qhipa mantañapa wasitatha qalltkani uka."
+
+# Mejor no traducir esto: "sugar-control-panel"... Esta traducción es muy repetitiva: "wakichataru wakisiri wakichata".
+#: ../src/jarabe/controlpanel/cmd.py:28
+#, python-format
+msgid ""
+"sugar-control-panel: WARNING, found more than one option with the same name: "
+"%s module: %r"
+msgstr ""
+"sugar-control-panel sata: JANI ARMASIMTI, walja thakiwa kikipa sutinkama "
+"utjixa: módulo %s: %r"
+
+# CLAVE: (Del lat. clavis, llave). 6. f. Signo o combinación de signos para hacer funcionar ciertos aparatos.
+#: ../src/jarabe/controlpanel/cmd.py:30
+#, python-format
+msgid "sugar-control-panel: key=%s not an available option"
+msgstr "sugar-control-panel: aka ist'araña qillqa=%s sataxa janirjawa utjkiti"
+
+# Me parece que no hay que traducir: sugar-control-panel: %s (
+#: ../src/jarabe/controlpanel/cmd.py:31
+#, python-format
+msgid "sugar-control-panel: %s"
+msgstr "sugar-control-panel: %s"
+
+# WAKISIRI ahora como OPCION.
+#. TRANS: Translators, there's a empty line at the end of this string,
+#. which must appear in the translated string (msgstr) as well.
+#: ../src/jarabe/controlpanel/cmd.py:38
+msgid ""
+"Usage: sugar-control-panel [ option ] key [ args ... ] \n"
+"    Control for the sugar environment. \n"
+"    Options: \n"
+"    -h           show this help message and exit \n"
+"    -l           list all the available options \n"
+"    -h key       show information about this key \n"
+"    -g key       get the current value of the key \n"
+"    -s key       set the current value for the key \n"
+"    -c key       clear the current value for the key \n"
+"    "
+msgstr ""
+"Apnaqawi: sugar-control-panel [ opción ] ist'araña qillqa [ args ... ] \n"
+"    Sugar satana utapa apnaqañataki. \n"
+"    Thakinaka: \n"
+"    -h               aka yanapt'atha yatiyawi uñachayi, ukatha mistuwa \n"
+"    -l                taqpacha ucht'ata thakinaka siqicht'i \n"
+"    -h chimpu       aka ist'araña qillqxata yatiyawi uñachayi \n"
+"    -g chimpu       ist'araña qillqana jichha chanipa katu \n"
+"    -s chimpu       ist'araña qillqana jichha chanipa uchi \n"
+"    -c chimpu   ist'araña qillqana jichha chanipa apaqaña \n"
+"    "
+
+# ¿"erase" en las teclar de la pequeña computadora aparece en INGLES o CASTELLANO?
+#: ../src/jarabe/controlpanel/cmd.py:52
+msgid ""
+"To apply your changes you have to restart Sugar.\n"
+"Hit ctrl+alt+erase on the keyboard to trigger a restart."
+msgstr ""
+"Mayjt'ayatanakama apnaqañatakixa, Sugar wakichata wasitatha qalltayañamawa.\n"
+"Wakichatanaka mayampi qalltañataki, ctrl+alt+erase limt'ma."
+
+#: ../src/jarabe/controlpanel/gui.py:373 ../src/jarabe/journal/palettes.py:194
+#: ../src/jarabe/journal/palettes.py:364 ../src/jarabe/journal/palettes.py:424
+#: ../src/jarabe/journal/volumestoolbar.py:304
+msgid "Warning"
+msgstr "Amtayawi"
+
+#: ../src/jarabe/controlpanel/gui.py:374
+#: ../src/jarabe/controlpanel/sectionview.py:45
+msgid "Changes require restart"
+msgstr "Mayjt'ayasinxa, mayampi qhantayañawa wakisi"
+
+#: ../src/jarabe/controlpanel/gui.py:379
+msgid "Cancel changes"
+msgstr "Mayjt'ayawinaka sayt'ayma."
+
+#: ../src/jarabe/controlpanel/gui.py:384
+msgid "Later"
+msgstr "Qhipatha"
+
+#: ../src/jarabe/controlpanel/gui.py:388
+msgid "Restart now"
+msgstr "Jichhpacha mayampi qhantayaña"
+
+#: ../src/jarabe/controlpanel/gui.py:419 ../src/jarabe/view/buddymenu.py:137
+msgid "An activity is not responding."
+msgstr "Maya wakichatawa jani qhantaña muniti"
+
+#: ../src/jarabe/controlpanel/gui.py:420 ../src/jarabe/view/buddymenu.py:138
+msgid "You may lose unsaved work if you continue."
+msgstr "Saraskakïtaxa jani imata wakichatanakama chhaqayäta"
+
+#: ../src/jarabe/controlpanel/toolbar.py:56
+#: ../src/jarabe/desktop/viewtoolbar.py:129
+#: ../src/jarabe/journal/journaltoolbox.py:94
+#, python-format
+msgid "Search in %s"
+msgstr "Akïri %s ukana thaqtaña"
+
+# configurar. (Del lat. configurāre). 1. tr. Dar determinada forma a algo.
+#: ../src/jarabe/controlpanel/toolbar.py:56
+msgid "Settings"
+msgstr "Askicht'awinaka"
+
+#: ../src/jarabe/controlpanel/toolbar.py:65 ../src/jarabe/intro/window.py:349
+msgid "Done"
+msgstr "Phuqata"
+
+#: ../src/jarabe/controlpanel/toolbar.py:127
+msgid "Ok"
+msgstr "Iyawsaña"
+
+# Ahora WAKICHAWI significa VERSION. No pues.
+#: ../src/jarabe/desktop/activitieslist.py:340
+#, python-format
+msgid "Version %s"
+msgstr "Wakichawi %s"
+
+#: ../src/jarabe/desktop/activitieslist.py:424
+#: ../src/jarabe/journal/listview.py:566 ../src/jarabe/journal/iconview.py:301
+msgid "Clear search"
+msgstr "Thaqsuña pichsuña"
+
+#: ../src/jarabe/desktop/activitieslist.py:510
+msgid "No matching activities"
+msgstr "Janiwa ukhama kikipkama lurawinaka utjkiti"
+
+# ¿Apsunaqata thaqakipaña = SIGNIFICA  "Confirmar borrado"?? No. Literalmente "ApsunaKata thaqakipaña" significa "hacer una búsqueda de los que se ha sacado". Lo que debe traducirse es CONFIRMAR BORRADO.
+#: ../src/jarabe/desktop/activitieslist.py:546
+msgid "Confirm erase"
+msgstr "Chhaqtayxapunïtati"
+
+# Idem:  ¿Apsunaqata thaqakipaña = SIGNIFICA "Confirmar borrado"?? No. Literalmente "ApsunaKata thaqakipaña" significa "hacer una búsqueda de los que se ha sacado". Lo que debe traducirse es CONFIRMAR BORRADO.
+#: ../src/jarabe/desktop/activitieslist.py:548
+#, python-format
+msgid "Confirm erase: Do you want to permanently erase %s?"
+msgstr ""
+"Mayampsa chhaqtayaja saskakma: ¿Sapa kutiti %s ukanakxa chhaqtayaña munanta?"
+
+#  "Guardar"
+#: ../src/jarabe/desktop/activitieslist.py:552
+#: ../src/jarabe/frame/clipboardmenu.py:65
+#: ../src/jarabe/view/viewsource.py:383
+msgid "Keep"
+msgstr "Imaña"
+
+# Pero, por qué "Apsunaqaña" significa BORRAR. ¿Cómo? ¿Dónde? "sacar una y otra vez aquí y allá" ????
+#: ../src/jarabe/desktop/activitieslist.py:555
+#: ../src/jarabe/desktop/activitieslist.py:625
+#: ../src/jarabe/journal/expandedentry.py:151
+#: ../src/jarabe/journal/journaltoolbox.py:545
+#: ../src/jarabe/journal/journaltoolbox.py:582
+#: ../src/jarabe/journal/journaltoolbox.py:806
+#: ../src/jarabe/journal/journaltoolbox.py:812
+#: ../src/jarabe/journal/palettes.py:138 ../src/jarabe/journal/palettes.py:161
+msgid "Erase"
+msgstr "Chhaqtayaña"
+
+# Favorito es algo que nos gusta de manera especial. Pero nada de eso veo en esta traducción: "Wakisiri wakichata". Mejor por qué no traducimos así: Chuymaru puriri 'lo que gusta al corazón' = FAVORITO.
+#: ../src/jarabe/desktop/activitieslist.py:641
+msgid "Remove favorite"
+msgstr "Chuymaru puriri yaqha chiqaru jithtayaña"
+
+# Observe esto: Wakisiri wakichata wakichaña... Esta repetición ya me la esperaba. Hay que superar encerrarnos a utilizar una sola palabra para muchas cosas.
+#: ../src/jarabe/desktop/activitieslist.py:645
+msgid "Make favorite"
+msgstr "Chuymaru puririptayaña"
+
+#. TRANS: label for the freeform layout in the favorites view
+#: ../src/jarabe/desktop/favoriteslayout.py:209
+msgid "Freeform"
+msgstr "Kunjama kankañanïphasa"
+
+# Siwi (cf. Bertonio 1612)
+#. TRANS: label for the ring layout in the favorites view
+#: ../src/jarabe/desktop/favoriteslayout.py:305
+msgid "Ring"
+msgstr "Siwi"
+
+#. TRANS: label for the spiral layout in the favorites view
+#: ../src/jarabe/desktop/favoriteslayout.py:469
+msgid "Spiral"
+msgstr "Muyu muyu"
+
+#. TRANS: label for the box layout in the favorites view
+#: ../src/jarabe/desktop/favoriteslayout.py:537
+msgid "Box"
+msgstr "Kajuna"
+
+# K'uchu es rincón, y no siempre implica angulo. Observese la definicion de ANGULO:  "Figura geométrica formada en una superficie por dos líneas que parten de un mismo punto". Dice: dos líneas que parten de un mismo punto, y en aymara es PALLQA o TARA.
+#. TRANS: label for the box layout in the favorites view
+#: ../src/jarabe/desktop/favoriteslayout.py:580
+msgid "Triangle"
+msgstr "Kimsa pallqa"
+
+# Registrar
+#: ../src/jarabe/desktop/favoritesview.py:376
+msgid "Registration"
+msgstr "Chinuru qillqantaña"
+
+# Por favor espere, buscando un servidor de la escuela
+#: ../src/jarabe/desktop/favoritesview.py:377
+msgid "Please wait, searching for your school server."
+msgstr "Suyt'akma, mira suma, yatiñutana luqtiripa thaqaski."
+
+# Wakichata acá es inmotivado.
+#: ../src/jarabe/desktop/favoritesview.py:387
+msgid "Registration Failed"
+msgstr "Chinuru qillqantkasa pantjata"
+
+#: ../src/jarabe/desktop/favoritesview.py:390
+msgid "Registration Successful"
+msgstr "Chinuru khusa qillqantäxiwa"
+
+# Y donde dice  "servidor de colegio" en Jichhaxa yatirinaka mayachäwi yanapiriru chiqapa qillqantatätawa.??
+#: ../src/jarabe/desktop/favoritesview.py:391
+msgid "You are now registered with your school server."
+msgstr "Yatiñutana luqtiriparu qillqantatäxtawa jichhaxa."
+
+# En quechua los registros se llevaban en KIPU lo que en aimara significa CHINU. En Bertonio CHINU significa: <La cuenta que señalan por nudos de lo que se da o se recibe>. Por tanto, significa REGISTRAR, y sería bueno recuperar este SENTIDO equivalente a KIPU del quechua.
+#: ../src/jarabe/desktop/favoritesview.py:680
+msgid "Register"
+msgstr "Qillqantaña chinu"
+
+#: ../src/jarabe/desktop/favoritesview.py:682
+msgid "Register again"
+msgstr "Wasitatha chinuru qillqantaña"
+
+#: ../src/jarabe/desktop/homewindow.py:255
+#: ../src/jarabe/desktop/viewtoolbar.py:73
+#: ../src/jarabe/frame/zoomtoolbar.py:57 ../src/jarabe/model/screenshot.py:63
+#: ../src/jarabe/view/viewhelp.py:76
+msgid "Home"
+msgstr "Uta"
+
+#: ../src/jarabe/desktop/homewindow.py:262
+#: ../src/jarabe/frame/zoomtoolbar.py:53 ../src/jarabe/model/screenshot.py:61
+#: ../src/jarabe/view/viewhelp.py:73
+msgid "Group"
+msgstr "Tama"
+
+#: ../src/jarabe/desktop/homewindow.py:269
+#: ../src/jarabe/frame/zoomtoolbar.py:49
+msgid "Neighborhood"
+msgstr "Mayachasiri masinaka"
+
+#: ../src/jarabe/desktop/keydialog.py:92
+#, python-format
+msgid ""
+"A wireless encryption key is required for\n"
+" the wireless network '%s'."
+msgstr ""
+"Imantata qillqanaka ist'araña qillqaxa wakisiwa akataki\n"
+" ch'usanama sariri llika '%s'."
+
+#: ../src/jarabe/desktop/keydialog.py:141
+msgid "Key Type:"
+msgstr "Ist'araña qillqana kastapa:"
+
+# Autentico = chiqapa
+#: ../src/jarabe/desktop/keydialog.py:161
+msgid "Authentication Type:"
+msgstr "Chiqapa kankañana kastapa:"
+
+#: ../src/jarabe/desktop/keydialog.py:224
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 sapa maynitaki"
+
+#: ../src/jarabe/desktop/keydialog.py:233
+msgid "Wireless Security:"
+msgstr "Wali musita ch'usanama sariri:"
+
+#. TRANS: Action label for resuming an activity.
+#: ../src/jarabe/desktop/meshbox.py:82
+#: ../src/jarabe/journal/journaltoolbox.py:659
+#: ../src/jarabe/journal/palettes.py:83 ../src/jarabe/view/palettes.py:98
+msgid "Resume"
+msgstr "Arkxataña"
+
+#: ../src/jarabe/desktop/meshbox.py:89
+#: ../src/jarabe/frame/activitiestray.py:208
+msgid "Join"
+msgstr "Jakisiña"
+
+#: ../src/jarabe/desktop/networkviews.py:499
+#, python-format
+msgid "Ad-hoc Network %d"
+msgstr "Wakisiri llika %d"
+
+#: ../src/jarabe/desktop/networkviews.py:643
+#, python-format
+msgid "Mesh Network %d"
+msgstr "Malla sata Llika %d"
+
+#: ../src/jarabe/desktop/schoolserver.py:144
+msgid "Cannot connect to the server."
+msgstr "Luqtataruxa janiwa mantañjamäkiti."
+
+#: ../src/jarabe/desktop/schoolserver.py:151
+msgid "The server could not complete the request."
+msgstr "Luqtasirixa janiwa mayitasa katuqaña phuqaykiti."
+
+#: ../src/jarabe/desktop/viewtoolbar.py:95
+msgid "List view"
+msgstr "Arunaka siqicha awati"
+
+#: ../src/jarabe/desktop/viewtoolbar.py:97
+#: ../src/jarabe/desktop/viewtoolbar.py:196
+#: ../src/jarabe/desktop/viewtoolbar.py:210
+#, python-format
+#, python-format,
+msgid "<Ctrl>%d"
+msgstr "<Ctrl>%d"
+
+#: ../src/jarabe/frame/activitiestray.py:213
+#: ../src/jarabe/frame/activitiestray.py:657
+msgid "Decline"
+msgstr "Jani katuqaña"
+
+#: ../src/jarabe/frame/activitiestray.py:598
+#, python-format
+msgid "%dB"
+msgstr "%dB"
+
+#: ../src/jarabe/frame/activitiestray.py:600
+#, python-format
+msgid "%dKB"
+msgstr "%dKB"
+
+#: ../src/jarabe/frame/activitiestray.py:602
+#, python-format
+msgid "%dMB"
+msgstr "%dMB"
+
+#. TRANS: file transfer, bytes transferred, e.g. 128 of 1024
+#: ../src/jarabe/frame/activitiestray.py:620
+#, python-format
+msgid "%s of %s"
+msgstr "%s de %s"
+
+#: ../src/jarabe/frame/activitiestray.py:634
+#, python-format
+msgid "Transfer from %s"
+msgstr "Akïri %s satatha apakipawi"
+
+#: ../src/jarabe/frame/activitiestray.py:648
+#: ../extensions/cpsection/backup/view.py:324
+msgid "Accept"
+msgstr "Katuqaña"
+
+#: ../src/jarabe/frame/activitiestray.py:722
+#: ../src/jarabe/frame/activitiestray.py:736
+#: ../src/jarabe/frame/activitiestray.py:878
+msgid "Dismiss"
+msgstr "Jaqsuña"
+
+#: ../src/jarabe/frame/activitiestray.py:750
+msgid "The other participant canceled the file transfer"
+msgstr "Maynïri mantaniriwa chinu q'ipi apakipaniñxa qulluyi"
+
+#: ../src/jarabe/frame/activitiestray.py:800
+#, python-format
+msgid "Transfer to %s"
+msgstr "%s ukaru apakipañataki"
+
+#: ../src/jarabe/frame/clipboardmenu.py:54
+msgctxt "Clipboard"
+msgid "Remove"
+msgstr "Chhaqtayaña"
+
+#: ../src/jarabe/frame/clipboardmenu.py:60
+#: ../src/jarabe/frame/clipboardmenu.py:83
+msgid "Open"
+msgstr "Ist'araña"
+
+#: ../src/jarabe/frame/clipboardmenu.py:88
+msgid "Open with"
+msgstr "Ukampi ist'araña"
+
+#: ../src/jarabe/frame/clipboardobject.py:50
+#, python-format
+msgid "%s clipping"
+msgstr "%s ukatha kuchuqañataki"
+
+#: ../src/jarabe/frame/zoomtoolbar.py:50
+msgid "F1"
+msgstr "F1"
+
+#: ../src/jarabe/frame/zoomtoolbar.py:54
+msgid "F2"
+msgstr "F2"
+
+#: ../src/jarabe/frame/zoomtoolbar.py:58
+msgid "F3"
+msgstr "F3"
+
+#: ../src/jarabe/frame/zoomtoolbar.py:62 ../src/jarabe/model/screenshot.py:69
+msgid "Activity"
+msgstr "Lurawi"
+
+#: ../src/jarabe/frame/zoomtoolbar.py:63
+msgid "F4"
+msgstr "F4"
+
+#  "Nombre:"
+#: ../src/jarabe/intro/window.py:135
+msgid "Name:"
+msgstr "Suti:"
+
+# "Clic para cambiar su color:"
+#: ../src/jarabe/intro/window.py:174
+msgid "Click to change color:"
+msgstr "Sami jaqukipañataki limt'aña:"
+
+#: ../src/jarabe/intro/window.py:337 ../src/jarabe/journal/detailview.py:95
+msgid "Back"
+msgstr "Qhipäxaru"
+
+#: ../src/jarabe/intro/window.py:352
+msgid "Next"
+msgstr "Jutiri"
+
+# Seleccionar grado:
+#: ../src/jarabe/intro/agepicker.py:38
+msgid "Select grade:"
+msgstr "Grado ajlliña:"
+
+# Preescolar
+#: ../src/jarabe/intro/agepicker.py:39
+msgid "Preschool"
+msgstr "Wawa utankiri"
+
+# Jardin de niños
+#: ../src/jarabe/intro/agepicker.py:39
+msgid "Kindergarten"
+msgstr "Wawa uta"
+
+#: ../src/jarabe/intro/agepicker.py:39
+msgid "1st Grade"
+msgstr "1er Grado"
+
+#: ../src/jarabe/intro/agepicker.py:40
+msgid "2nd Grade"
+msgstr "2do Grado"
+
+#: ../src/jarabe/intro/agepicker.py:40
+msgid "3rd Grade"
+msgstr "3er Grado"
+
+#: ../src/jarabe/intro/agepicker.py:40
+msgid "4th Grade"
+msgstr "4to Grado"
+
+#: ../src/jarabe/intro/agepicker.py:41
+msgid "5th Grade"
+msgstr "5to Grado"
+
+#: ../src/jarabe/intro/agepicker.py:41
+msgid "6th Grade"
+msgstr "6to Grado"
+
+#: ../src/jarabe/intro/agepicker.py:41
+msgid "7th Grade"
+msgstr "7mo Grado"
+
+# Escuela secundaria
+#: ../src/jarabe/intro/agepicker.py:42
+msgid "High School"
+msgstr "Kulijyu"
+
+# Adulto
+#: ../src/jarabe/intro/agepicker.py:42
+msgid "Adult"
+msgstr "Chuymani jilïri jaqi"
+
+#: ../src/jarabe/journal/expandedentry.py:153
+#: ../src/jarabe/journal/journaltoolbox.py:584
+#: ../src/jarabe/journal/palettes.py:163
+#, python-format
+msgid "Do you want to permanently erase \"%s\"?"
+msgstr "¿Sapa kutiti chhaqtayaña munta \"%s\" ukxa?"
+
+# mejor que se recupere el privativo -WISA que significa 'SIN'
+#: ../src/jarabe/journal/expandedentry.py:296
+#: ../src/jarabe/journal/listmodel.py:185 ../src/jarabe/journal/model.py:794
+#: ../src/jarabe/journal/palettes.py:72 ../src/jarabe/journal/palettes.py:621
+#: ../src/jarabe/journal/volumestoolbar.py:134
+#: ../src/jarabe/journal/iconmodel.py:110
+msgid "Untitled"
+msgstr "P'iqinchwisa"
+
+#: ../src/jarabe/journal/expandedentry.py:366
+msgid "No preview"
+msgstr "Jani yant'aña uñjañani"
+
+#: ../src/jarabe/journal/expandedentry.py:386
+#, python-format
+msgid "Kind: %s"
+msgstr "Akïri kasta: %s"
+
+#: ../src/jarabe/journal/expandedentry.py:387
+#, python-format
+msgid "Date: %s"
+msgstr "Uru chimpu: %s"
+
+#: ../src/jarabe/journal/expandedentry.py:388
+#, python-format
+msgid "Size: %s"
+msgstr "Taña: %s"
+
+#: ../src/jarabe/journal/expandedentry.py:412
+#: ../src/jarabe/journal/misc.py:131
+msgid "No date"
+msgstr "Jani uru chimpuni"
+
+#: ../src/jarabe/journal/expandedentry.py:421
+msgid "Participants:"
+msgstr "Mayachasirinaka:"
+
+#: ../src/jarabe/journal/expandedentry.py:459
+msgid "Description:"
+msgstr "Jamuqasjama yatiyawi:"
+
+#: ../src/jarabe/journal/expandedentry.py:465
+msgid "Tags:"
+msgstr "Sutinchaña:"
+
+#: ../src/jarabe/journal/expandedentry.py:470
+msgid "Comments:"
+msgstr "Amuykipanaka:"
+
+#: ../src/jarabe/journal/journalactivity.py:182
+#: ../src/jarabe/journal/journaltoolbox.py:94
+#: ../src/jarabe/journal/palettes.py:260
+#: ../src/jarabe/journal/volumestoolbar.py:349
+#: ../src/jarabe/view/viewhelp.py:79
+msgid "Journal"
+msgstr "Sapüru lurawi qillqa"
+
+#: ../src/jarabe/journal/journaltoolbox.py:103
+msgid "Favorite entries"
+msgstr "Chuymanchasiri mantawinaka"
+
+#. TRANS: Item on a palette that filters by entry type.
+#: ../src/jarabe/journal/journaltoolbox.py:112
+#: ../src/jarabe/journal/journaltoolbox.py:403
+#: ../src/jarabe/journal/journaltoolbox.py:479
+msgid "Anything"
+msgstr "Kawkïriphasa"
+
+#: ../src/jarabe/journal/journaltoolbox.py:118
+#: ../src/jarabe/journal/journaltoolbox.py:165
+#: ../src/jarabe/journal/journaltoolbox.py:483
+msgid "Anytime"
+msgstr "Maya akathjamathpacha"
+
+#: ../src/jarabe/journal/journaltoolbox.py:172
+msgid "Since yesterday"
+msgstr "Masürutha"
+
+#: ../src/jarabe/journal/journaltoolbox.py:175
+msgid "Past week"
+msgstr "Qhipqhipa simana"
+
+#: ../src/jarabe/journal/journaltoolbox.py:178
+msgid "Past month"
+msgstr "Qhipqhipa phaxsi"
+
+#: ../src/jarabe/journal/journaltoolbox.py:181
+msgid "Past year"
+msgstr "Qhipqhipa mara"
+
+#: ../src/jarabe/journal/journaltoolbox.py:521
+#: ../src/jarabe/journal/palettes.py:105
+msgid "Copy to"
+msgstr "Ukaru apaqañataki"
+
+#: ../src/jarabe/journal/journaltoolbox.py:529
+#: ../src/jarabe/journal/palettes.py:116 ../src/jarabe/view/viewsource.py:379
+msgid "Duplicate"
+msgstr "Payaptayaña"
+
+# Pero MACHAQACHAÑA no era actualizar?
+#: ../src/jarabe/journal/journaltoolbox.py:535
+msgid "Refresh"
+msgstr "Wasitatha sumpuni amtaña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:577
+#: ../src/jarabe/journal/palettes.py:156 ../src/jarabe/journal/palettes.py:374
+#: ../src/jarabe/journal/volumestoolbar.py:312
+#, python-format
+msgid "Error while copying the entry. %s"
+msgstr "Mantaña apaqkämiruwa pantjti. %s"
+
+#: ../src/jarabe/journal/journaltoolbox.py:578
+#: ../src/jarabe/journal/palettes.py:157 ../src/jarabe/journal/palettes.py:375
+#: ../src/jarabe/journal/volumestoolbar.py:313
+msgid "Error"
+msgstr "Pantjata"
+
+#. TRANS: Action label for starting an entry.
+#: ../src/jarabe/journal/journaltoolbox.py:662
+#: ../src/jarabe/journal/palettes.py:86
+msgid "Start"
+msgstr "Qalltaña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:682
+#: ../src/jarabe/journal/palettes.py:100 ../src/jarabe/journal/palettes.py:513
+msgid "No activity to start entry"
+msgstr "Mantaña qalltañataki, janiwa lurawixa jakisiti"
+
+#: ../src/jarabe/journal/journaltoolbox.py:700
+msgid "Sort view"
+msgstr "Uñjawi lakintaña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:711
+msgid "Sort by date modified"
+msgstr "Kuna pachana mayjt'ayatjamaru lakintaña"
+
+# KAMAÑA es CREAR. Es un verbo antiguo que es necesario recuperar...
+#: ../src/jarabe/journal/journaltoolbox.py:712
+msgid "Sort by date created"
+msgstr "Kuna pachana kamatjamaru lakintaña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:713
+msgid "Sort by size"
+msgstr "Tañatjama lakintaña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:778
+msgid "Deselect all"
+msgstr "Qawayatha chimpunaka apaqraña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:791
+msgid "Select all"
+msgstr "Qawayatha ajlliña"
+
+#: ../src/jarabe/journal/journaltoolbox.py:817
+#, python-format
+msgid "Do you want to erase %d entry?"
+msgid_plural "Do you want to erase %d entries?"
+msgstr[0] "¿Luraña chaqtayaña muntati %d?"
+msgstr[1] "¿%d mantaña chaqtayaña muntati?"
+
+#: ../src/jarabe/journal/journaltoolbox.py:831
+#: ../src/jarabe/journal/palettes.py:378
+msgid "Copy"
+msgstr "Apaqaña"
+
+#. TRANS: Do not translate %(selected)d and %(total)d.
+#: ../src/jarabe/journal/journaltoolbox.py:882
+#, python-format
+msgid "Selected %(selected)d of %(total)d"
+msgstr "Ajllitanaka %(selected)d akïritha %(total)d"
+
+# Seleccionar filtro
+#: ../src/jarabe/journal/journaltoolbox.py:917
+msgid "Select filter"
+msgstr "Susuña ajlliña"
+
+#: ../src/jarabe/journal/listview.py:473 ../src/jarabe/journal/iconview.py:212
+msgid "Your Journal is empty"
+msgstr "Sapüru luraña qillqama ch'usakiwa"
+
+# Ahora WAKICHATA significa CARPETA?
+#: ../src/jarabe/journal/listview.py:476 ../src/jarabe/journal/iconview.py:215
+msgid "Your documents folder is empty"
+msgstr "Luratanaka imaña wayaqamaxa ch'usakiwa"
+
+# DISPOSITIVO: Pieza, aparato, USB, mecanismo, artefacto. ¿Cómo lo traducimos?
+#: ../src/jarabe/journal/listview.py:478 ../src/jarabe/journal/iconview.py:217
+msgid "The device is empty"
+msgstr "Dispositivo sata isk'a yäxa ch'usakiwa"
+
+# Ahora WAKICHATA significa ENTRADA??
+#: ../src/jarabe/journal/listview.py:480 ../src/jarabe/journal/iconview.py:220
+msgid "No matching entries"
+msgstr "Ukhampura mantañanakaxa janiwa utjkiti"
+
+#: ../src/jarabe/journal/misc.py:313
+#, python-format
+msgid "Older Version Of %s Activity"
+msgstr "Akïri %s sutini sinti nayra lurawi wakichata"
+
+# Hay problemas de sintaxis al colocar  %s y he visto en casi todas partes. LO que se traduce es VERSION  %s, por tanto  %s no puede separarse de su componente cercano VERSION. No vale romper o quebrar frases sin licencia gramatical.
+#: ../src/jarabe/journal/misc.py:314
+#, python-format
+msgid "Do you want to downgrade to version %s"
+msgstr "¿Sinti nayra %s wakichata utt'ayañcha munta?"
+
+#: ../src/jarabe/journal/modalalert.py:63
+msgid "Your Journal is full"
+msgstr "Sapüru lurawi qillqama phuqawa"
+
+#: ../src/jarabe/journal/modalalert.py:68
+msgid "Please delete some old Journal entries to make space for new ones."
+msgstr ""
+"Mira suma, sapüru lurawi qillqatatha maya qhawqha nayra luratanaka "
+"chhaqtayma, ukhamatha juk'ampi lurawinaka katuqañataki."
+
+#: ../src/jarabe/journal/modalalert.py:82
+msgid "Show Journal"
+msgstr "Sapüru Lurawi Qillqata qhanstayma"
+
+#: ../src/jarabe/journal/objectchooser.py:171
+msgid "Choose an object"
+msgstr "Maya yäki ajllt'ma"
+
+# Este signo %s, debe colocarse en la oración en la frase que corresponde. No en cualquier lugar. Para eso hay que mirar dónde va en inglés y en donde va en castellano, eso orientará en qué lugar debe ponerse en aimara.
+#: ../src/jarabe/journal/objectchooser.py:176
+#, python-format
+msgid "Choose an object to open with %s activity"
+msgstr "Maya yäki ajllt'ma, %s lurawimpi ist'arañataki"
+
+# Mejor JIWAYAÑA que quede solo para APAGAR.
+#: ../src/jarabe/journal/objectchooser.py:184
+#: ../src/jarabe/view/viewhelp.py:335 ../src/jarabe/view/viewsource.py:579
+msgid "Close"
+msgstr "Llawintaña"
+
+#: ../src/jarabe/journal/palettes.py:84
+msgid "Resume with"
+msgstr "Uka wakichatampi mayampi qalltaña"
+
+#: ../src/jarabe/journal/palettes.py:87
+msgid "Start with"
+msgstr "Uka wakichatampi qalltaña"
+
+#: ../src/jarabe/journal/palettes.py:124
+msgid "Send to"
+msgstr "Uka wakichataru apayaña"
+
+# Ahora WAKICHATA es DETALLE !!
+#: ../src/jarabe/journal/palettes.py:133
+msgid "View Details"
+msgstr "K'achañatha taqikuna utjatapa uñakipaña"
+
+#: ../src/jarabe/journal/palettes.py:193
+msgid "Entries without a file cannot be sent."
+msgstr "Jani chinu q'ipini mantañanakaxa janiwa apaqañjamati."
+
+# Ahora WAKICHATA es DOCUMENTO. Mejor hay que seguir planeando otras opciones para traducir DOCUMENTO.
+# 1. m. Diploma, carta, relación u otro escrito que ilustra acerca de algún hecho, principalmente de los históricos.
+#
+#: ../src/jarabe/journal/palettes.py:272
+#: ../src/jarabe/journal/volumestoolbar.py:214
+msgid "Documents"
+msgstr "Wakichatanaka"
+
+#: ../src/jarabe/journal/palettes.py:363 ../src/jarabe/journal/palettes.py:423
+#: ../src/jarabe/journal/volumestoolbar.py:303
+msgid "Entries without a file cannot be copied."
+msgstr "Jani chinu q'ipini mantañanakaxa janiwa apaqañjamati."
+
+#: ../src/jarabe/journal/palettes.py:383
+#, python-format
+msgid "Do you want to copy %d entry?"
+msgid_plural "Do you want to copy %d entries?"
+msgstr[0] "¿Akïriru %d sata mantaña apaqaña muntati?"
+msgstr[1] "¿Akïrinakaru %d sata mantañanaka apaqaña muntati?"
+
+# Seguro que no quiso decir k'ipi sino q'ipi.
+#: ../src/jarabe/journal/palettes.py:408
+msgid "Clipboard"
+msgstr "Laphi q'ipicha"
+
+#: ../src/jarabe/journal/palettes.py:478
+msgid "No friends present"
+msgstr "Janiwa masisanaka mantanipxiti"
+
+# Conectarse = mantaña?
+#: ../src/jarabe/journal/palettes.py:483
+msgid "No valid connection found"
+msgstr "Chiqapa mantaña janiwa katuyasiti"
+
+# Lurawi es ENTRADA Y ACTIVIDAD? No es necesario distinguir de dos maneras también?
+#: ../src/jarabe/journal/palettes.py:511
+msgid "No activity to resume entry"
+msgstr "Lurawixa janiwa utjkiti, wasitatha mantaña katuñataki"
+
+#: ../src/jarabe/journal/palettes.py:580 ../src/jarabe/view/palettes.py:133
+msgid "Stop"
+msgstr "Acht'ayaña"
+
+# Arkaña es SEGUIR detrás de alguien, y no tiene nada que ver con CONTINUAR.
+#: ../src/jarabe/journal/palettes.py:585
+#: ../extensions/cpsection/backup/view.py:212
+#: ../extensions/cpsection/backup/view.py:265
+msgid "Continue"
+msgstr "Luraskakiña"
+
+#: ../src/jarabe/journal/palettes.py:622
+#, python-format
+msgid "%(index)d of %(total)d : %(object_title)s"
+msgstr "%(index)d de %(total)d : %(object_title)s"
+
+#: ../src/jarabe/journal/volumestoolbar.py:375
+#: ../src/jarabe/view/palettes.py:251 ../src/jarabe/view/palettes.py:317
+#, python-format
+msgid "%(free_space)d MB Free"
+msgstr "%(free_space)d MB utjiri wakichata"
+
+#: ../src/jarabe/model/desktop.py:85
+#, python-format
+#, python-format,
+msgid "Favorites view %d"
+msgstr "Chuymaru puriri awati %d"
+
+# Sobre <dispositivo> ya dije arriba.
+#: ../src/jarabe/model/network.py:217
+msgid "The reason for the device state change is unknown."
+msgstr "Dispositivo satana mayjt'atapataki chiqapa amuyuxa jani uñt'atawa."
+
+#: ../src/jarabe/model/network.py:219
+msgid "The state change is normal."
+msgstr "Wakichata kankañapa mayjt'ayañaxa aliqakiwa."
+
+#: ../src/jarabe/model/network.py:221
+msgid "The device is now managed."
+msgstr "Dispositivo sata yäxa apanaqatäskiwa."
+
+#: ../src/jarabe/model/network.py:223
+msgid "The device is no longer managed."
+msgstr "Dispositivo sata yäxa janiwa apanaqatäxiti."
+
+# Dispositivo WACKICHATA... Todo es wakichata?
+#: ../src/jarabe/model/network.py:225
+msgid "The device could not be readied for configuration."
+msgstr "Dispositivo sata yäxa janiwa sumpacha wakichatati, askichasiñapatakixa."
+
+# Ahora wakichata = configuración?
+#: ../src/jarabe/model/network.py:227
+msgid ""
+"IP configuration could not be reserved (no available address, timeout, etc)."
+msgstr ""
+"IP askichawixa janiwa suma imaqatati (janiwa katjaña thaki utjiti, pachathsa "
+"qhipt'atawa, yaqhanakampi)."
+
+#: ../src/jarabe/model/network.py:230
+msgid "The IP configuration is no longer valid."
+msgstr "IP askichawixa janiwa askïxiti."
+
+#: ../src/jarabe/model/network.py:232
+msgid "Secrets were required, but not provided."
+msgstr "Ist'araña chimpunakawa, ukatha janirakiwa aliqata uñachayatati."
+
+#: ../src/jarabe/model/network.py:234
+msgid ""
+"The 802.1X supplicant disconnected from the access point or authentication "
+"server."
+msgstr "802.1X apnaqiri mantaña punkuthsa chiqapachawi luqtawithsa mistuyatawa."
+
+#: ../src/jarabe/model/network.py:237
+msgid "Configuration of the 802.1X supplicant failed."
+msgstr "802.1X apnaqirina askichawipaxa pantjatawa."
+
+#: ../src/jarabe/model/network.py:239
+msgid "The 802.1X supplicant quit or failed unexpectedly."
+msgstr ""
+"802.1X apnaqirixa mistuwayxiwa, jani ukaxa maya akathjamatha pantjasiwayi."
+
+# jayawskiptayi = Qué sufijo es W en esa palabra? No es -ru?
+#: ../src/jarabe/model/network.py:241
+msgid "The 802.1X supplicant took too long to authenticate."
+msgstr "802.1X apnaqirixa chiqapachañataki sinti jayarskiptayi."
+
+#: ../src/jarabe/model/network.py:243
+msgid "The PPP service failed to start within the allowed time."
+msgstr "PPP luqtawixa qhantkasina pantjasiwayi."
+
+#: ../src/jarabe/model/network.py:245
+msgid "The PPP service disconnected unexpectedly."
+msgstr "PPP luqtawixa maya akathjamatha mistuwayi."
+
+#: ../src/jarabe/model/network.py:247
+msgid "The PPP service quit or failed unexpectedly."
+msgstr "PPP luqtawi mistsutawa, jani ukaxa, maya akathjamatha pantjatawa."
+
+#: ../src/jarabe/model/network.py:249
+msgid "The DHCP service failed to start within the allowed time."
+msgstr "DHCP luqtawixa k'ata qhantkasina pantjasiwayi."
+
+#: ../src/jarabe/model/network.py:251
+msgid "The DHCP service reported an unexpected error."
+msgstr "DHCP luqtawixa maya akathjamatha pantjasita yatiyistu."
+
+#: ../src/jarabe/model/network.py:253
+msgid "The DHCP service quit or failed unexpectedly."
+msgstr ""
+"DHCP luqtawixa mistsuwayiwa, jani ukaxa, maya akathjamatha pantjasiwayi."
+
+# Veo que CONEXION es otra palabra que no se deja traducir fácilmente.
+#: ../src/jarabe/model/network.py:255
+msgid "The shared connection service failed to start."
+msgstr "Taqiru mayachiri luqtawixa qalltkasina pantjasiwayi."
+
+#: ../src/jarabe/model/network.py:257
+msgid "The shared connection service quit or failed unexpectedly."
+msgstr ""
+"Taqiru mayachiri luqtawixa mistuwayiwa, jani ukaxa, maya akathjamatha "
+"pantjasiwayi."
+
+#: ../src/jarabe/model/network.py:260
+msgid "The AutoIP service failed to start."
+msgstr "AutoIP luqtawixa qalltkasina pantjasiwayi."
+
+#: ../src/jarabe/model/network.py:262
+msgid "The AutoIP service reported an unexpected error."
+msgstr "AutoIP luqtawixa maya akathjamatha pantjasiwi yatiyawayi."
+
+#: ../src/jarabe/model/network.py:264
+msgid "The AutoIP service quit or failed unexpectedly."
+msgstr ""
+"AutoIP luqtawixa mistsuwayiwa, jani ukaxa, maya akathjamatha pantjasiwayi."
+
+# Mayachäwi = mayachasiña = Concexión o línea. LINEA es otra de las palabras difíciles de traducir. Por eso aparece el comodín WAKICHA...
+#
+#: ../src/jarabe/model/network.py:266
+msgid "Dialing failed because the line was busy."
+msgstr "Línea sata phuqïpana, mayachawiruxa janiwa mantañjamäkiti."
+
+# Mayachäwi pantjata kunattixa mayachasiñataki jawst'aña wakichata chhaqatipana.... = Muy mala construcción.
+#: ../src/jarabe/model/network.py:268
+msgid "Dialing failed because there was no dial tone."
+msgstr "Jawsañataki jani tono utjipana, conexión sata mayachawixa pantjtawayi."
+
+# Qué es PORTADORA. Si no sabemos qué es, no podremos traducir. Por ahora sugiero mantener igual.
+#: ../src/jarabe/model/network.py:270
+msgid "Dialing failed because there was no carrier."
+msgstr "Portadora sata jani utjipana, conexión sata mayachawixa pantjtawayiwa."
+
+#: ../src/jarabe/model/network.py:272
+msgid "Dialing timed out."
+msgstr "Jawsawi, pacha tukusipana, acht'awayi."
+
+#: ../src/jarabe/model/network.py:274
+msgid "Dialing failed."
+msgstr "Jawsawiwa pantjtawayi."
+
+#: ../src/jarabe/model/network.py:276
+msgid "Modem initialization failed."
+msgstr "Modem wakichata, qalltkasina, pantjtawayi."
+
+#: ../src/jarabe/model/network.py:278
+msgid "Failed to select the specified GSM APN"
+msgstr "GSM (APN) sata mantaña punku ajllkasina, pantjti"
+
+#: ../src/jarabe/model/network.py:280
+msgid "Not searching for networks."
+msgstr "Janiwa llikaxa thaqatäkiti."
+
+#: ../src/jarabe/model/network.py:282
+msgid "Network registration was denied."
+msgstr "Llika taypiru qillqantäñaxa janiwa katuqatati."
+
+#: ../src/jarabe/model/network.py:284
+msgid "Network registration timed out."
+msgstr "Llika taypiru qillqantatäñaxa tukusiwaysxiwa."
+
+# GSM mayachäwi wakichataru qillqantayasiña mayitaxa pantjasiwi. = tiene serios problemas en la sintaxis.
+#: ../src/jarabe/model/network.py:286
+msgid "Failed to register with the requested GSM network."
+msgstr "GSM sata mayita llikampi qillqantawiwa pantjti."
+
+#: ../src/jarabe/model/network.py:288
+msgid "PIN check failed."
+msgstr "Pantjata PIN chimpu uñakipaña."
+
+#: ../src/jarabe/model/network.py:290
+msgid "Necessary firmware for the device may be missing."
+msgstr "Dispositivo satataki wakisiri firmware wakichataxa munasisphawa."
+
+#: ../src/jarabe/model/network.py:292
+msgid "The device was removed."
+msgstr "Dispositivo sata apnaqaña apsutäxiwa."
+
+#: ../src/jarabe/model/network.py:294
+msgid "NetworkManager went to sleep."
+msgstr "NetworkManager wakichataxa ikt'ayatawa."
+
+#: ../src/jarabe/model/network.py:296
+msgid "The device's active connection was removed or disappeared."
+msgstr ""
+"Dispositivo satana jakaskiri conexión sata qhantayatanakaxa yaqha chiqaru "
+"apsuta, jani ukaxa, chhaqtawatawa."
+
+# Parece que MAYACHA está siendo usada para más de dos funciones. En este caso significa ¿USUARIO? Antes, ¿no significaba CONEXION?
+#: ../src/jarabe/model/network.py:299
+msgid "A user or client requested the disconnection."
+msgstr "Maynïri apnaqiriwa mistuwayxaña mayi."
+
+# Ahora PORTADORA es WAKICHATA?
+#: ../src/jarabe/model/network.py:301
+msgid "The device's carrier/link changed."
+msgstr "Dispositivo satana portadora/link satapa mayjt'ayatawa."
+
+#: ../src/jarabe/model/network.py:303
+msgid "The device's existing connection was assumed."
+msgstr "Dispositivo satana qhantayawipaxa katutawa."
+
+#: ../src/jarabe/model/network.py:305
+msgid "The supplicant is now available."
+msgstr "Uka apnaqirixa janiwa utjxiti."
+
+#: ../src/jarabe/model/network.py:307
+msgid "The modem could not be found."
+msgstr "Modem wakichata janiwa katuyaskiti."
+
+#: ../src/jarabe/model/network.py:309
+msgid "The Bluetooth connection failed or timed out."
+msgstr "Bluetooth qhantayataxa sinti suykämiru pantjtiwa."
+
+#: ../src/jarabe/model/network.py:311
+msgid "Unused."
+msgstr "Jani apanaqata."
+
+# Pero qué <Qillqañanaka wakichata> es malla. Si no sabemos qué significa MALLA y en qué contexto, no estamos en condiciones de traducir. Mientras tanto mantengamos como en castellano.
+#: ../src/jarabe/model/screenshot.py:59 ../src/jarabe/view/viewhelp.py:70
+msgid "Mesh"
+msgstr "Malla"
+
+#: ../src/jarabe/model/screenshot.py:72
+msgid "Screenshot"
+msgstr "Pantalla phutjama apaqaña"
+
+# Pero para qué se usa en la traducción la palabra JIWAYAÑA 'morir', 'apagar'. !!!
+#: ../src/jarabe/model/screenshot.py:74
+#, python-format
+msgid "Screenshot of \"%s\""
+msgstr "Aïri \"%s\" uka, pantalla phutjama apaqaña"
+
+# Lanzador de actividades
+#: ../src/jarabe/view/alerts.py:38 ../src/jarabe/view/alerts.py:48
+msgid "Activity launcher"
+msgstr "Lurawinaka jaqkatiri"
+
+# %s ya está corriendo. Por favor detener %s antes de volverlo a lanzar nuevamente.
+#: ../src/jarabe/view/alerts.py:39
+#, python-format
+msgid "%s is already running. Please stop %s before launching it again."
+msgstr ""
+"%s ukaxa sarantxiwa. Mira suma, %s ukxa acht'ayma, janirja mayampi "
+"jaqkatkasina."
+
+# El número máximo de actividades abiertas ha llegado a su límite. Por favor cierra una actividad antes de abrir una nueva.
+#: ../src/jarabe/view/alerts.py:49
+msgid ""
+"The maximum number of open activities has been reached. Please close an "
+"activity before launching a new one."
+msgstr ""
+"Ist'arata lurawinakana jilathpacha jakhunakapaxa qurpaparu purxiwa. Mira "
+"suma, maya lurawitha mistma, janirja yaqharu mantkasina."
+
+#: ../src/jarabe/view/buddymenu.py:73
+msgid "Remove friend"
+msgstr "Masi chhaqtayaña"
+
+#: ../src/jarabe/view/buddymenu.py:76
+msgid "Make friend"
+msgstr "Masi jawst'aña"
+
+#: ../src/jarabe/view/buddymenu.py:108
+msgid "Shutdown"
+msgstr "Jiwayaña"
+
+# El sufijo ablativo -THA normalizado en los cuadernos de trabajo del Ministerio de Educación es corregido por el compañero traductos como -TA. Por favor, en estos casos tomar en cuenta esto. Por tanto, WASITA-THA  y no WASITA-TA 'nuevamente'.
+#: ../src/jarabe/view/buddymenu.py:113
+msgid "Restart"
+msgstr "Wasitatha qalltaña"
+
+#: ../src/jarabe/view/buddymenu.py:119
+msgid "Logout"
+msgstr "Mistuña"
+
+#: ../src/jarabe/view/buddymenu.py:124
+msgid "My Settings"
+msgstr "Askichasiwinakaja"
+
+#: ../src/jarabe/view/buddymenu.py:183
+#, python-format
+msgid "Invite to %s"
+msgstr "Akïri %s ukaru jawst'aña"
+
+#: ../src/jarabe/view/launcher.py:159
+#, python-format
+msgid "<b>%s</b> failed to start."
+msgstr "<b>%s</b> wakichataxa, qalltkasina, pantjti."
+
+#: ../src/jarabe/view/palettes.py:53
+msgid "Starting..."
+msgstr "Qalltaskiwa..."
+
+#: ../src/jarabe/view/palettes.py:63
+msgid "Activity failed to start"
+msgstr "Lurawi qalltkasina pantjti."
+
+# FUENTE como ORIGEN, TIPO DE LETRA, O FUENTE DE ENERGÍA?
+#. TODO: share-with, keep
+#: ../src/jarabe/view/palettes.py:105
+msgid "View Source"
+msgstr "Kamasitapa uñakipaña"
+
+# Ver Ayuda
+#: ../src/jarabe/view/palettes.py:112
+msgid "View Help"
+msgstr "Yanapt'awi uñantma"
+
+#: ../src/jarabe/view/palettes.py:179
+msgid "Start new"
+msgstr "Mayampi qalltaña"
+
+#: ../src/jarabe/view/palettes.py:266
+msgctxt "Volume"
+msgid "Remove"
+msgstr "Chhaqtayaña"
+
+#: ../src/jarabe/view/viewhelp.py:304
+msgid "Help Manual"
+msgstr "Yanapasiri panka"
+
+#: ../src/jarabe/view/viewhelp.py:318
+msgid "Social Help"
+msgstr "Yanapa"
+
+#: ../src/jarabe/view/viewhelp.py:326
+#, python-format
+msgid "Help: %s"
+msgstr "Yanapa: %s"
+
+# A qué tipo de FUENTE se refiere? En este caso significa INFORMAR = yatiyiri. ¿Cuál fuente?
+#: ../src/jarabe/view/viewsource.py:364
+msgid "Instance Source"
+msgstr "Jakxataña yatiyiri"
+
+#: ../src/jarabe/view/viewsource.py:392
+#, python-format
+msgid "Do you want to duplicate %s Activity?"
+msgstr "¿Wakichata %s payachaña muntati?"
+
+#: ../src/jarabe/view/viewsource.py:394
+msgid "This may take a few minutes"
+msgstr "Akïri wakichaña maya juk'a suyt'añawa"
+
+#: ../src/jarabe/view/viewsource.py:408
+msgid "Duplicating activity..."
+msgstr "Wakichata payaptaña"
+
+#: ../src/jarabe/view/viewsource.py:447
+msgid "Duplicated"
+msgstr "Payaptayata"
+
+#: ../src/jarabe/view/viewsource.py:448
+msgid "The activity has been duplicated"
+msgstr "Wakichata payachatäxiwa"
+
+#: ../src/jarabe/view/viewsource.py:462
+msgid "Duplicated activity already exists"
+msgstr "Payachata wakichata utjxiwa"
+
+#: ../src/jarabe/view/viewsource.py:463
+msgid "Delete your copy before trying to duplicate the activity again"
+msgstr "Apaqatama janirara mayampi payaptaykasa unxtayma"
+
+# Si es como ENERGIA = Naktayiri; Si es ORIGEN = Yuritapa, Paqarina.
+#: ../src/jarabe/view/viewsource.py:478
+msgid "Source"
+msgstr "Naktayiri"
+
+# kawkitha jutatapa = ORIGEN
+#: ../src/jarabe/view/viewsource.py:542
+msgid "Activity Bundle Source"
+msgstr "Lurawi ch'ipatana kawkitha jutatapa"
+
+# Si no se sabe qué es FUENTE, no podremos traducir. Mientas tanto uso en su acepción de ORIGEN.
+#: ../src/jarabe/view/viewsource.py:561
+msgid "Sugar Toolkit Source"
+msgstr "Sugar Toolkit wakichatana kawkitha jutatapa"
+
+#: ../src/jarabe/view/viewsource.py:568
+#, python-format
+msgid "View source: %s"
+msgstr "Yatiyiri chimpupa uñjaña: %s"
+
+#: ../src/jarabe/view/viewsource.py:569
+#, python-format
+msgid "View source: %r"
+msgstr "Yatiyiri chimpupa uñjaña: %r"
+
+# Por favor seleccione un archivo en el panel izquierdo
+#: ../src/jarabe/view/viewsource.py:809
+msgid "Please select a file in the left panel."
+msgstr "Mira suma, ch'iqa panilana maya chinu q'ipi ajllt'ma."
+
+# backup
+# copia de seguridad, copia de respaldo, salvaguarda .
+# backup (v)
+# respaldar, hacer copias de respaldo .
+#: ../extensions/cpsection/backup/__init__.py:22
+msgid "Backup"
+msgstr "Chijitaki imaqata apaqa"
+
+# Por favor conecte un dispositivo para continuar
+#: ../extensions/cpsection/backup/backends/volume.py:61
+#: ../extensions/cpsection/backup/backends/volume.py:171
+msgid "Please connect a device to continue"
+msgstr "Mira suma, dispositivo sata yämpi jakthapiyma sarantaskakiñataki"
+
+# Se refiere al VOLUMEN de SONIDo o al VOLUMEN físico que se mide en cm3?
+#: ../extensions/cpsection/backup/backends/volume.py:69
+#: ../extensions/cpsection/backup/backends/volume.py:178
+msgid "Select your volume"
+msgstr "Sallanchama ajllt'asma"
+
+# ¿Cómo decimos ESPACIO? Por ahora, solo estoy usando PAMPA. ¿Raro no?
+#: ../extensions/cpsection/backup/backends/volume.py:78
+msgid "Not enough space in volume"
+msgstr "Sallanchanxa janiwa pampaxa wakisirpacha utjxiti"
+
+# Copia de seguridad es RESPALDO.
+#: ../extensions/cpsection/backup/backends/volume.py:122
+#, python-format
+msgid "Backup from user %s"
+msgstr "Akïri %s apnaqirina chijitaki imaqata apaqa"
+
+# APAQA = copia
+#: ../extensions/cpsection/backup/backends/volume.py:191
+msgid "No checkpoints found in the device"
+msgstr "Dispositivo sata yänxa, chijitaki imaqata apaqaxa janiwa utjkiti"
+
+# Seleccione la copia de seguridad
+#: ../extensions/cpsection/backup/backends/volume.py:199
+msgid "Select your checkpoint"
+msgstr "Chijitaki imaqata apaqa ajllt'ma"
+
+# No hay suficiente espacio en el disco
+#: ../extensions/cpsection/backup/backends/volume.py:210
+msgid "Not enough space in disk"
+msgstr "Riskuna janiwa pampaxa wakiskirpacha utjxiti"
+
+# Dispositivo no puede ser ISK'A UTA?
+#: ../extensions/cpsection/backup/backends/volume.py:329
+msgid "Local Device Backup"
+msgstr "Chijitaki imaqata apaqataki dispositivo local sata"
+
+# Grabar el contenido del Diario
+# OBS. Hay dos palabras:
+# Guardar y grabar.
+# para el primero que se use 'IMAÑA' y para el segundo que se refonologice así: 'RAWAÑA'
+#: ../extensions/cpsection/backup/view.py:133
+msgid "Save the contents of your Journal"
+msgstr "Sapüru Lurawi Qillqatamana kunanakapa imaña"
+
+# Restaurar el contenido del Diario
+#: ../extensions/cpsection/backup/view.py:141
+msgid "Restore the contents of your Journal"
+msgstr "Sapüru Lurawi Qillqatamana kunanakapa wasitatha jaktayaña"
+
+# Por favor, cierre todas las actividades y comience nuevamente
+#: ../extensions/cpsection/backup/view.py:223
+msgid "Please close all the activities, and start again"
+msgstr "Mira suma, lurawinaka q'ala llawthapma, ukatha machaqatha qalltma"
+
+# Seleccione donde desea realizar la copia de seguridad
+#: ../extensions/cpsection/backup/view.py:229
+msgid "Select where you want create your backup"
+msgstr "Chijitaki imaqata apaqa kawkirusa uchaña muntaxa uka ajllt'ma"
+
+# Seleccione de donde restaurar la copia de seguridad
+#: ../extensions/cpsection/backup/view.py:231
+msgid "Select where you want retrieve your restore"
+msgstr ""
+"Chijitaki imaqata apaqama kawkirusa uchaña muntaxa uka mayampi wasitatha "
+"jaktayma"
+
+# Volver a intentar
+#: ../extensions/cpsection/backup/view.py:271
+msgid "Retry"
+msgstr "Wasitatha yant'aña"
+
+# Iniciando el respaldo...
+#: ../extensions/cpsection/backup/view.py:290
+msgid "Starting backup..."
+msgstr "Chijitaki imaqata apaqa qalltayaskaña..."
+
+# Iniciando la restauración...
+#: ../extensions/cpsection/backup/view.py:294
+msgid "Starting restore..."
+msgstr "Wasitatha jaktayaña qallantaskiwa..."
+
+# Quiero restaurar el contenido de mi Dario. Para hacerlo, el Diario será limpiado y el contenido a restaurar será agregado.
+#: ../extensions/cpsection/backup/view.py:321
+msgid ""
+"I want to restore the content of my Journal. In order to do this, my Journal "
+"will first be emptied of all its content; then the restored content will be "
+"added."
+msgstr ""
+"Sapüru Lurawi Qillqatajana yänakapa wasitatha jaktayaña muntha. Uka "
+"lurañatakixa, Sapüru Lurawi Qillqataxa q'umachatäñapawa; jaktayata "
+"yänakapasa yapt'atäniwa."
+
+# Confirmar
+#: ../extensions/cpsection/backup/view.py:327
+msgid "Confirm"
+msgstr "Mayampsa ukhamawa saña"
+
+# Operación iniciada
+#: ../extensions/cpsection/backup/view.py:365
+msgid "Operation started"
+msgstr "Apnaqawixa qallantiwa"
+
+# Respaldo terminado con éxito
+#: ../extensions/cpsection/backup/view.py:377
+msgid "Backup finished successfully"
+msgstr "Wali khuspuni tukuyixa chijitaki imaqata apaqaxa"
+
+# Restauración realizado con éxito.
+#: ../extensions/cpsection/backup/view.py:379
+msgid "Restore realized successfully."
+msgstr "Wali khuspuni tukuyixa wasitatha jakatatayañaxa."
+
+#: ../src/jarabe/frame/notification.py:62
+msgid "Clear notifications"
+msgstr "Yatinuqayawi q'umachaña"
+
