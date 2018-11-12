@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.9)  12 NOV 2018 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.9)  12 NOV 2018 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,47 +259,58 @@ Overfull \hbox (26.38658pt too wide) in paragraph at lines 62--63
 File: ../imgs/Figure2.png Graphic file (type png)
 
 <use ../imgs/Figure2.png>
-Package pdftex.def Info: ../imgs/Figure2.png used on input line 89.
+Package pdftex.def Info: ../imgs/Figure2.png used on input line 90.
 (pdftex.def)             Requested size: 341.77605pt x 100.87662pt.
 
-Overfull \hbox (19.01741pt too wide) in paragraph at lines 101--103
+Overfull \hbox (19.01741pt too wide) in paragraph at lines 102--104
 \OT1/cmr/m/n/10 bundle.py, and jour-nal-win-dow.py files will be-gin with the c
 re-ation of a test[]journal.py
  []
 
 [3 <../imgs/Figure2.png>] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
- [5] [6] [7]
-(./FinalProject.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+ [5]
+<../imgs/Figure3.png, id=33, 728.7225pt x 441.65pt>
+File: ../imgs/Figure3.png Graphic file (type png)
+ <use ../imgs/Figure3.png>
+Package pdftex.def Info: ../imgs/Figure3.png used on input line 158.
+(pdftex.def)             Requested size: 291.48383pt x 176.65686pt.
+
+Overfull \hbox (67.4173pt too wide) in paragraph at lines 155--162
+\OT1/cmr/m/n/10 Each of the test cases have been writ-ten and saved to the /Tes
+-tAu-toma-tion/testCaseExecutables
+ []
+
+[6 <../imgs/Figure3.png>] [7] [8] (./FinalProject.aux) ) 
 Here is how much of TeX's memory you used:
- 2798 strings out of 493029
- 37981 string characters out of 6136234
- 101755 words of memory out of 5000000
- 6282 multiletter control sequences out of 15000+600000
+ 2804 strings out of 493029
+ 38096 string characters out of 6136234
+ 101763 words of memory out of 5000000
+ 6287 multiletter control sequences out of 15000+600000
  11094 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,26p,538b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msam10.pfb>
-Output written on FinalProject.pdf (7 pages, 173506 bytes).
+ 37i,8n,26p,538b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on FinalProject.pdf (8 pages, 205183 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
