@@ -20,7 +20,6 @@ class TestAgeCalculation(unittest.TestCase):
 				read_input = 2
 			elif read_input == 2:
 				age = int(line[:-1])
-				print(str(agepick.calculate_age(date)) + " (Calculated) == " + str(age) + " (Expected)")
 				self.assertTrue(agepick.calculate_age(date) == age)
 				read_input = 1				
 
