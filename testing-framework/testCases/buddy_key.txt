@@ -3,7 +3,7 @@
 # Valid input is to be given
 #
 # test number: 4
-# component: buddy.py
+# component: jarabe.model.buddy.py
 # method: set_key
 # input: key
 # output: current key
