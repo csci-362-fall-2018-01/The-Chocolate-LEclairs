@@ -5,9 +5,6 @@
 This repository is for our CSCI-362 class. you will find a testing framework to test the sugarlabs system.
  You can also read through the final project pdf or the individual deliverables for instructions on how to 
  build sugarlabs and how to execute the tests.<br><br>
-- Test Scripts: 'testing-framework/scripts/runAllTests.py'
-- Build Instructions: Chapter 1 of Final Project
-- Test Plan: Chapter 2 of Final Project
 
 # Deliverable 1
 Deliverable 1 give instructions on how to build sugarlabs after cloning the original repository. It gives details on all the commands
