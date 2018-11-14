@@ -44,3 +44,5 @@ for line in moved_file:
 moved_file.close()
 
 os.system("rm ../temp/output2.log")
+
+os.system("python genReport.py")

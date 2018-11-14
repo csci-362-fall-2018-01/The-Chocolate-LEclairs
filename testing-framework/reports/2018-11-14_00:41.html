@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TCL - Test Report</title>
+</head>
+
+<body>
+	<h1>The Chocolate LEclairs</h1>
+	Team Members: Blaine Billings, Alex Skiff, Chase Myers, Justin Willis, Carson Barber
+	<br><br>
+	<h2>Test Report</h2>
+	Generated: Wed Nov 14 00:41:35 EST 2018
+
+<br><br>
+
+	<h2>Age Calculator Test Case</h2>
+	This test case is to make sure that the calculate_age method works as intended<br>
+	Invalid input is to be given<br>
+	<br>
+	test number: 1<br>
+	component: jarabe.intro.agepicker.py<br>
+	method: calculate_age<br>
+	input: birth_timestamp<br>
+	output: current age based on the birth_timestamp<br>
+	<br>
+	input parameters:<br>
+	first line: date of birth<br>
+	second line: incorrect current age<br>
+
+	Test Case Inputs:<br>
+	     - 22/06/1997<br>
+	     - 25<br>
+
+	<br>Test Results:<br>
+	<strong>     - Ran 1 test in 0.005s</strong>
+	<strong>     - OK</strong>
+<br><br>
+
+	<h2>Age Calculator Test Case</h2>
+	This test case is to make sure that the calculate_age method works as intended<br>
+	Valid input is to be given<br>
+	<br>
+	test number: 2<br>
+	component: jarabe.intro.agepicker.py<br>
+	method: calculate_age<br>
+	input: birth_timestamp<br>
+	output: current age based on the birth_timestamp<br>
+	<br>
+	input parameters:<br>
+	first line: date of birth<br>
+	second line: current age<br>
+
+	Test Case Inputs:<br>
+	     - 22/06/1997<br>
+	     - 21<br>
+	     - 25/12/1997<br>
+	     - 20<br>
+	     - 10/03/1990<br>
+	     - 28<br>
+	     - 29/05/1978<br>
+	     - 40<br>
+	     - 30/09/2016<br>
+	     - 2<br>
+
+	<br>Test Results:<br>
+	<strong>     - Ran 1 test in 0.006s</strong>
+	<strong>     - OK</strong>
+<br><br>
+
+	<h2>Buddy Color Test Case</h2>
+	This test case is to make sure that the buddy system lets you change keys for a user<br>
+	Valid input is to be given<br>
+	<br>
+	test number: 3<br>
+	component: jarabe.model.buddy.py<br>
+	method: set_color<br>
+	input: color (hex format)<br>
+	output: current color<br>
+	<br>
+	input parameters:<br>
+	first line: color to change to<br>
+
+	Test Case Inputs:<br>
+	     - FF00FF<br>
+
+	<br>Test Results:<br>
+	<strong>     - Ran 1 test in 0.001s</strong>
+	<strong>     - OK</strong>
+<br><br>
+
+	<h2>Buddy Key Test Case</h2>
+	This test case is to make sure that the buddy system lets you change keys for a user<br>
+	Valid input is to be given<br>
+	<br>
+	test number: 4<br>
+	component: jarabe.model.buddy.py<br>
+	method: set_key<br>
+	input: key<br>
+	output: current key<br>
+	<br>
+	input parameters:<br>
+	first line: key to change to<br>
+
+	Test Case Inputs:<br>
+	     - DEADBEEF_DEADCODE<br>
+
+	<br>Test Results:<br>
+	<strong>     - Ran 1 test in 0.001s</strong>
+	<strong>     - OK</strong>
+<br><br>
+
+	<h2>Buddy Nickname Test Case</h2>
+	This test case is to make sure that the buddy system lets you change nicknames<br>
+	Valid input is to be given<br>
+	<br>
+	test number: 5<br>
+	component: jarabe.model.buddy.py<br>
+	method: set_nick<br>
+	input: nickname<br>
+	output: current nickname<br>
+	<br>
+	input parameters:<br>
+	first line: nickname to change to<br>
+
+	Test Case Inputs:<br>
+	     - bigboidan<br>
+
+	<br>Test Results:<br>
+	<strong>     - Ran 1 test in 0.001s</strong>
+	<strong>     - OK</strong>
+</body>
+</html>
