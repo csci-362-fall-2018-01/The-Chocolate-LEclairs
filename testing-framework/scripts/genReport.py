@@ -84,3 +84,6 @@ report.write(
 )
 
 report.close()
+
+# Open report
+os.system("xdg-open ../reports/" + filename)
