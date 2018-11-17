@@ -1,0 +1,11 @@
+# Activity Chooser Test Case
+# This test case ensures the ActivityChooser class is working
+# Valid input is to be given
+#
+# test number: 8
+# component: jarabe.model.activivtychooser.py
+# method: contructor and set_title
+# input: title of the chooser window
+#
+# input parameters:
+Activity Selector
