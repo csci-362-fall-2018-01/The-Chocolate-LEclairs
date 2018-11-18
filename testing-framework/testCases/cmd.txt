@@ -5,3 +5,4 @@
 # component: jarabe.view.viewhelp.py
 # method: get_social_help_server
 # output: sugarlabs help page
+

@@ -33,5 +33,25 @@ class TestCMD(unittest.TestCase):
                     count += 1
                 os.system("rm ./temp.txt")
 
+    def test_note_restart(self):
+        note_restart_lines = [
+            'To apply your changes you have to restart Sugar.\n',
+            'Hit ctrl+alt+erase on the keyboard to trigger a restart.\n'
+        ]
+
+        for line in open("../testCases/cmd.txt"):
+            if not line.startswith("#"):
+                sys.stdout = open("./temp.txt", "w")
+                cmd.note_restart()
+                sys.stdout = sys.__stdout__
+                count = 0
+                for line in open("./temp.txt"):
+                    if line == "" or line == "\n" or line == note_restart_lines[count]:
+                        self.assertEquals(1, 1)
+                    else:
+                        self.assertEquals(1, 2)
+                    count += 1
+                os.system("rm ./temp.txt")
+
 if __name__ == '__main__':
     unittest.main()
