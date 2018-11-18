@@ -1,0 +1,16 @@
+# aboutme nickname Test Case
+# This test case tests whether 
+# Valid input is to be given
+#
+# test number: ???
+# component: jarabe.model.clipboard
+# method: add_object
+# input: object_name (string)
+# output: object_id for the newly created object
+#
+# input parameters:
+# first line: hex value string
+# second line: boolean showing whether string is a valid hex value
+abcf12390,True
+ahri3121,False
+
