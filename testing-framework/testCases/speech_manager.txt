@@ -1,0 +1,7 @@
+# Speech Manager Test Case
+# This test case checks if the speech manager can be created
+#
+# test number: ?
+# component: jarabe.model.speech.py
+# method: get_speech_manager
+# output: instance of the speech manager

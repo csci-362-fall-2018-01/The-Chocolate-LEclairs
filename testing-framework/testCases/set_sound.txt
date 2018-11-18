@@ -1,0 +1,14 @@
+# HTTP Range Test Case
+# This test case tests the volume changer and mute setting
+#
+# test number: ?
+# component: jarabe.model.sound.py
+# method: set_volume
+# output: volume
+#
+# test number: ?
+# component: jarabe.model.sound.py
+# method: set_muted
+# output: muted state
+100
+True
