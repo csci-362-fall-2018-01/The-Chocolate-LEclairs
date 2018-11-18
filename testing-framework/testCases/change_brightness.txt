@@ -1,0 +1,10 @@
+# Screen Brightness Test Case
+# This test case is to test changing brightness
+#
+# test number: ?
+# component: jarabe.model.brightness.py
+# method: set_brightness
+# input: brightness level
+#
+# input parameters:
+100
