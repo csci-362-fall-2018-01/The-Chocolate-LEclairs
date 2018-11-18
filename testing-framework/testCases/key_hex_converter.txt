@@ -1,0 +1,10 @@
+# String to Hex Test Case
+# This test case tests the string to hex conversion
+#
+# test number: 8
+# component: jarabe.desktop.keydialog.py
+# method: string_to_hex
+# input: key
+# output: hex version of string
+random string
+72616e646f6d20737472696e67
