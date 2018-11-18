@@ -1,0 +1,12 @@
+# Normalize Test Case
+# This test case is to ensure the system was set up correctly, and knows where to find the help page
+#
+# test number: 20
+# component: jarabe.model.session
+# method: have_systemd
+# output: a boolean representing whether or not the user has systemd installed
+#
+# test number: 21
+# component: jarabe.model.session
+# method: get_session
+# output: a system session
