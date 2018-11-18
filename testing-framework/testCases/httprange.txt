@@ -2,9 +2,14 @@
 # This test case is to ensure the system was set up correctly, and knows where to find the help page
 #
 # test number: 8
-# component: jarabe.util.httprange.py
+# component: jarabe.util.httprange
+# method: open
+# output: valid _HTTPRangeFileObject object
+#
+# test number: 9
+# component: jarabe.util.httprange
 # method: size
-# output: sugarlabs help page
+# output: content-size of http get request
 https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/age_calculator.txt,441
 https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/age_calculator_invalid.txt,398
 https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_color.txt,327
