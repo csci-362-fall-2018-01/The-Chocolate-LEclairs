@@ -1,0 +1,9 @@
+# Normalize Test Case
+# This test case is to ensure the system was set up correctly, and knows where to find the help page
+#
+# test number: 10
+# component: jarabe.util.normalize
+# method: normalize_string
+# output: valid normalized string
+Mónica Viñao,monica vinao
+Ábaco,abaco
