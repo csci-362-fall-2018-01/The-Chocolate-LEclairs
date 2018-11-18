@@ -8,8 +8,8 @@
 # input: string_to_test (string)
 # output: boolean evaluation
 #
-# input parameters:
-# first value: string to test,second value: expected output
+# first value: string to test
+# second value: expected output
 abcf12390,True
 áhri3121,False
 

@@ -1,9 +1,12 @@
 # Normalize Test Case
-# This test case is to ensure the system was set up correctly, and knows where to find the help page
+# This test case tests the normalize string function
 #
 # test number: 10
 # component: jarabe.util.normalize
 # method: normalize_string
 # output: valid normalized string
+#
+# first line is the strings to be normalized
+# second line is the string it should normalize to
 Mónica Viñao,monica vinao
 Ábaco,abaco

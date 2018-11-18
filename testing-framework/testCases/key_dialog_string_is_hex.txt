@@ -1,14 +1,11 @@
-# aboutme nickname Test Case
-# This test case tests whether 
-# Valid input is to be given
+# String Is Hex Test Case
+# This test case tests the hex string comparison
 #
 # test number: ???
-# component: jarabe.model.clipboard
-# method: add_object
-# input: object_name (string)
-# output: object_id for the newly created object
+# component: jarabe.desktop.keydialog
+# method: string_is_hex
+# input: string
 #
-# input parameters:
 # first line: hex value string
 # second line: boolean showing whether string is a valid hex value
 abcf12390,True

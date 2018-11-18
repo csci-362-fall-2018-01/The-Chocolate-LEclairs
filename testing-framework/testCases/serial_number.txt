@@ -1,0 +1,13 @@
+# Serial Number Gen Test Case
+# This test case tests the serial generator
+# Their generator uses python's random and unix time, so we can seed the random and use time the same way they do to replicate random generation
+#
+# test number: 10
+# component: jarabe.util.normalize
+# method: normalize_string
+# output: random string with unix time appended
+# 
+# first line is the seed
+# second line is the string it should generate
+232540816
+ZXR

@@ -6,5 +6,8 @@
 # method: string_to_hex
 # input: key
 # output: hex version of string
+# 
+# first line is the string to be converted
+# second line is the hex representation
 random string
 72616e646f6d20737472696e67

@@ -1,8 +1,8 @@
 # CMD Test Case
-# This test case is to ensure the system was set up correctly, and knows where to find the help page
+# This test case tests the systems command line
 #
-# test number: 11
-# component: jarabe.view.viewhelp.py
-# method: get_social_help_server
-# output: sugarlabs help page
+# test number: ?
+# component: jarabe.controlpanel.cmd.py
+# method: cmd_help
+# output: help information
 
