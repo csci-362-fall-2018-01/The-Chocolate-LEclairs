@@ -1,0 +1,15 @@
+# keydialog string-is-ascii Test Case
+# This test case tests whether the string-is-ascii function works properly
+# Valid input is to be given
+#
+# test number: ???
+# component: jarabe.desktop.keydialog
+# method: string_is_ascii
+# input: string_to_test (string)
+# output: boolean evaluation
+#
+# input parameters:
+# first value: string to test,second value: expected output
+abcf12390,True
+áhri3121,False
+
