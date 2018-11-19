@@ -2,7 +2,7 @@
 # This test case tests the serial generator
 # Their generator uses python's random and unix time, so we can seed the random and use time the same way they do to replicate random generation
 #
-# test number: 10
+# test number: 21
 # component: jarabe.util.normalize
 # method: normalize_string
 # output: random string with unix time appended

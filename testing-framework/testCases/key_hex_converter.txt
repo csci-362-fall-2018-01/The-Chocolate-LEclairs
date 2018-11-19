@@ -1,7 +1,7 @@
 # String to Hex Test Case
 # This test case tests the string to hex conversion
 #
-# test number: 8
+# test number: 16
 # component: jarabe.desktop.keydialog.py
 # method: string_to_hex
 # input: key

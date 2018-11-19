@@ -1,7 +1,7 @@
 # Help Page Test Case
 # This test case is to ensure the system was set up correctly, and knows where to find the help page
 #
-# test number: 4
+# test number: 10
 # component: jarabe.view.viewhelp.py
 # method: get_social_help_server
 # output: sugarlabs help page

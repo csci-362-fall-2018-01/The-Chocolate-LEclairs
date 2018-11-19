@@ -1,17 +1,17 @@
 # New Friend Gen Test Case
 # These test cases check for adding a new buddy to someone
 #
-# test number: ?
+# test number: 17
 # component: jarabe.model.friends
 # method: get_model
 # output: the current model containing your friends
 #
-# test number: ?
+# test number: 18
 # component: jarabe.model.friends
 # method: add_friend
 # input: friend you want to add
 #
-# test number: ?
+# test number: 19
 # component: jarabe.model.friends
 # method: has_friend
 # input: friend to check

@@ -2,7 +2,7 @@
 # This test case tests whether the string-is-ascii function works properly
 # Valid input is to be given
 #
-# test number: ???
+# test number: 14
 # component: jarabe.desktop.keydialog
 # method: string_is_ascii
 # input: string_to_test (string)

@@ -1,12 +1,12 @@
 # Sessions Test Case
 # These test cases check to see if the system can create a session
 #
-# test number: 20
+# test number: 22
 # component: jarabe.model.session
 # method: have_systemd
 # output: a boolean representing whether or not the user has systemd installed
 #
-# test number: 21
+# test number: 23
 # component: jarabe.model.session
 # method: get_session
 # output: a system session

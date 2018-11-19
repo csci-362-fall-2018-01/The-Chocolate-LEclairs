@@ -1,8 +1,13 @@
 # CMD Test Case
 # This test case tests the systems command line
 #
-# test number: ?
+# test number: 8
 # component: jarabe.controlpanel.cmd.py
 # method: cmd_help
 # output: help information
+#
+# test number: 9
+# component: jarabe.controlpanel.cmd.py
+# method: note_restart
+# output: restart note
 

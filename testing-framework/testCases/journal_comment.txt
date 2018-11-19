@@ -1,7 +1,7 @@
 # Journal Comment Test Case
 # This test case tests adding a comment to someone's journal entry
 #
-# test number: ???
+# test number: 13
 # component: jarabe.journal.expandedentry
 # method: add_row
 # input: name, message, icon color

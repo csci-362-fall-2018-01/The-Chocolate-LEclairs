@@ -2,7 +2,7 @@
 # This test case is to make sure that the calculate_age method works as intended
 # Valid input is to be given
 #
-# test number: 2
+# test number: 3
 # component: jarabe.intro.agepicker.py
 # method: calculate_age
 # input: birth_timestamp

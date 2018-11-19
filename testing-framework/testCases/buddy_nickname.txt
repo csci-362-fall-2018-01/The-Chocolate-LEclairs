@@ -2,7 +2,7 @@
 # This test case is to make sure that the buddy system lets you change nicknames
 # Valid input is to be given
 #
-# test number: 5
+# test number: 6
 # component: jarabe.model.buddy.py
 # method: set_nick
 # input: nickname

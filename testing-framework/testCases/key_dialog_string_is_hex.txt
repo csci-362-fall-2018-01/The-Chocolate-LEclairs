@@ -1,7 +1,7 @@
 # String Is Hex Test Case
 # This test case tests the hex string comparison
 #
-# test number: ???
+# test number: 15
 # component: jarabe.desktop.keydialog
 # method: string_is_hex
 # input: string
