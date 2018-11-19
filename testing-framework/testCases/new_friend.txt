@@ -1,0 +1,23 @@
+# New Friend Gen Test Case
+# These test cases check for adding a new buddy to someone
+#
+# test number: ?
+# component: jarabe.model.friends
+# method: get_model
+# output: the current model containing your friends
+#
+# test number: ?
+# component: jarabe.model.friends
+# method: add_friend
+# input: friend you want to add
+#
+# test number: ?
+# component: jarabe.model.friends
+# method: has_friend
+# input: friend to check
+# True or False
+# 
+# first line: buddy's nickname
+# second line is the buddy's key
+Anthony
+AXY28245029
