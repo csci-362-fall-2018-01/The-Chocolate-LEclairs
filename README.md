@@ -21,3 +21,7 @@ see what the expected input and output is for each of the test cases. Also inclu
 the sugar labs system. You can view the descriptions as well as the input for the test cases in 'testing-framework/testCases/'.
 The executable scripts to run each test case can be found in 'testing-framework/testCaseExecutables/'<br>
 [Deliverable 3](https://github.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/blob/master/The-Cholocate-LEclercs_Deliverable3.pdf)
+
+# Deliverable 4
+Deliverable 4 works off of Deliverable 3, completing all 25 of the test cases specified in our testing framework. This document will show all of the same details as Deliverable 3, those being the input and output of each test case, the tested component, the tested method, and the test id number. The executable scripts for running the test cases are found in the same directory as before.
+[Deliverable 4](https://github.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/blob/master/The-Chocolate-LEclercs_Deliverable4.pdf)
