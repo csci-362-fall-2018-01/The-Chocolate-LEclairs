@@ -12,6 +12,6 @@
 # output: content-size of http get request
 https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/age_calculator.txt,441
 https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/age_calculator_invalid.txt,398
-https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_color.txt,327
-https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_key.txt,315
-https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_nickname.txt,322
+https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_color.txt,328
+https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_key.txt,316
+https://raw.githubusercontent.com/csci-362-fall-2018-01/The-Chocolate-LEclairs/master/testing-framework/testCases/buddy_nickname.txt,323
