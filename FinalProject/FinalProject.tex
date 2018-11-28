@@ -5,29 +5,68 @@
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \newcommand\smalltab[1][0.3cm]{\hspace*{#1}}
 
+\title{CSCI 362 Final Project: SugarLabs}
+\author{Alex Skiff, Blaine Billings, Carson Barber, Chase Myers, Justin Willis}
+\date{ }
+
+\renewcommand*\contentsname{Table of Contents}
+ 
 \begin{document}
 
-\begin{center}
-\textbf{CSCI 362 Final Project: SugarLabs}
-\end{center}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+ 
+        \Huge
+        \textbf{Sugar Labs Automated Testing Framework}
+ 
+        \vspace{0.5cm}
+        \LARGE
+        CSCI 362 Final Project
+ 
+        \vspace{1.5cm}
+ 
+        \textbf{Alex Skiff, Blaine Billings,}\\
+        \textbf{Carson Barber, Chase Myers,}\\
+        \textbf{Justin Willis}
+ 
+        \vfill
+ 
+        A framework presented for the automated testing\\
+        of the Sugar Labs software project
+ 
+        \vspace{0.8cm}
+ 
 
+        \Large
+        College of Charleston\\
+        CSCI 362: Software Engineering\\
+        Dr. Anthony P. Leclerc\\
+        30 November 2018
+ 
+    \end{center}
+\end{titlepage}
+ 
+\tableofcontents
 
-\begin{center}
+\newpage
 
-{The Chocolate L'Eclercs}\\
-\vspace{0.2cm}
-{Alex Skiff, Blaine Billings, Carson Barber}\\
-{Chase Myers, Justin Willis}\\
-\vspace{0.2cm}
+\section{Introduction}
+\subsection{Project Description}
+Sugar Labs\footnote{https://github.com/sugarlabs} is a free, open-source software that aims to inreases accessibility and ease of use for classroom-setting technology-based learning. Through the project, the developers hope to provide students with an easy to understand and fun learning environment for both the technological sciences and the basics of elementary education. Thier code consists of two main parts - a highly interactive and graphics-based front-end supported by a logical, decision-driven back-end that manages user data, journal logs, learning assignments, and all other relevant materials.
 
-\end{center}
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{../imgs/Figure4.png}
+\end{figure}
 
+While the project's organization follows the software engineering design principle of "separation of powers", dividing up individual tasks among many disjoint pieces of code, the tests associated with each section are neither easily accessible nor comprehensive. This is the problem we aimed to tackle.
+\subsection{Testing Framework}
+Through our work, we aim to create an automated testing framework that both highly increases the coverage of unit testing, allowing for the verification and near guarantee of fewer program faults, and allows a user of the Sugar Labs software to be able to easily integrate their tests as well as provide additional testing input for existing test classes.
 
+This document is organized as follows. In Section 2, we thoroughly detail how to properly install the Sugar Labs project, accounting for all nececssary software requirements and pre-installation command procedures. Section 3 introduces the testing plan, detailing the specifics of the five principal test cases that serve as an outline for the twenty-five introduced herein. In addition, in this section, we cover various requirements and restraints associated with such an undertaking so as to be prepared for whatever challenges may arise. In Section 4, we provide an architectural description of the automated testing framework, outlining the primary files and folders, as well as discuss in detail the implementation of the five initial test cases as introduced in the previous section. This serves as both a backbone of the testing framework and a guide for any future test cases. In Section 5, we include brief descriptions of the the remaining twenty implemented test cases, omitting the specifics which can be found in the actual implementation and understood alongisde those previously characterized. In Section 6, we inject faults into the project code so as to demonstrate the veracity of our framework before concluding with a final review.
 
-\begin{abstract}
-\end{abstract}
-
-\section{Chapter 1: Installation}
+\section{Deliverable 1: Installation}
 \subsection{Clone and Build}
 In order to obtain a local instance of the project, we accessed the \textbf{sugar} repository made by the \textbf{SugarLabs} project team on GitHub\footnote{https://github.com/sugarlabs/sugar}. Using the command 
 \begin{center}
@@ -63,9 +102,9 @@ Most of the tests passed, with only a few errors thrown. However, despite there 
 \caption{A run of an included test file, test\textunderscore downloader.py.}
 \label{Figure1}
 \end{figure}
-\subsection{Brief Team Evaluation}
+\subsection{Team Evaluation}
 Overall the project is very organized with some help on building the project provided and only a little lacking information on testing what they have made. The developers were prepared for testing everything they needed to have tested, but only for themselves. It would have been more helpful for others looking in if there was a file that would automate the testing or at least more information on how to set up each individual test. We look forward to creating our own tests and exploring in more detail this project.
-\section{Chapter 2: Introductory Test Plan}
+\section{Deliverable 2: Introductory Test Plan}
 \subsection{Testing Process}
 We have divided the process of our test plan for our five introductory test cases into the evaluation of three main subsystems. They are described as follows:
 \begin{enumerate}
@@ -135,8 +174,9 @@ The system tests will primarily consist of checking relevant software installati
 \item \textbf{libglib2.0-dev}: dpkg -\--get-selections $\mid$ grep libglib2.0-dev
 \item \textbf{gtk+-3.0}: dpkg -\--get-selections $\mid$ gtk-3.0
 \end{itemize}
+\subsection{Team Evaluation}
 
-\section{Chapter 3: Automated Testing Framework}
+\section{Deliverable 3: Automated Testing Framework}
 \subsection{Architectural Description}
 The automated testing framework has been subdivided in to following sections for ease of use:
 \begin{itemize}[noitemsep,topsep=0pt]
@@ -208,5 +248,14 @@ For the first step in the implementation of our automate testing framework we wr
 \item \textbf{Expected Output}: Output is expected to return the input number for each of the input test cases, as the set method should properly set the color, and the get method should properly return the color. Expected Output: FF00FF
 \end{itemize}
 \end{itemize}
+\subsection{Team Evaluation}
+This deliverable was definitely the most challenging task so far for this project. We decided to use python as out scripting language since that is what the project was written in to begin with, making it much easier to interact with the project files the sugarlabs team created. After creating a few test cases, we had some other issues to resolve like redirecting the output from unittests to a file instead of the terminal. Overall we are happy with the framework layout and our ability to create the rest of the test cases moving forward. 
+
+\section{Deliverable 4: Complete Testing Specifications}
+\subsection{Test Case Specifications}
+\subsection{Team Evaluation}
+
+\section{Deliverable 5: Testing Fault-Injected Code}
+\subsection{Team Evaluation}
 
 \end{document}
