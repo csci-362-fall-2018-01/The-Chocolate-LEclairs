@@ -4,7 +4,7 @@
 # Description
 This repository is for our CSCI-362 class. you will find a testing framework to test the sugarlabs system.
  You can also read through the final project pdf or the individual deliverables for instructions on how to 
- build sugarlabs and how to execute the tests.<br><br>
+ build sugarlabs and how to execute the tests.
 
 # Final Report
 Formal report for all 5 deliverables as well as a sixth chapter for reflections on the project<br>
