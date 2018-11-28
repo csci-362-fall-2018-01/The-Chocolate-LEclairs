@@ -8,7 +8,13 @@
 		sugarlabs source files
 	/scripts
 		runAllTests.py
-		runTest.py
+		genReport.py
+		breakSugar.py
+		fixSugar.py
+		/fix
+			working sugar labs files
+		/break
+			code injected faulty files
 	/testCases
 		testCase1.txt
 		testCase2.txt
