@@ -1,0 +1,221 @@
+% LaTeX Article Template
+\documentclass{article}
+\usepackage{amssymb, amsmath, amsfonts, amsthm, latexsym, graphicx, enumitem, tocloft}
+\newcommand{\C}{\mathbb {C}}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\newcommand\smalltab[1][0.3cm]{\hspace*{#1}}
+\title{CSCI 362 Final Project: SugarLabs}
+\author{Alex Skiff, Blaine Billings, Carson Barber, Chase Myers, Justin Willis}
+\date{ }
+
+\begin{document}
+
+\begin{center}
+\textbf{CSCI 362 Deliverable 4: SugarLabs}
+\end{center}
+
+
+\begin{center}
+
+{The Chocolate L'Eclercs}\\
+\vspace{0.2cm}
+{Alex Skiff, Blaine Billings, Carson Barber}\\
+{Chase Myers, Justin Willis}\\
+\vspace{0.2cm}
+
+\end{center}
+
+\section{Deliverable 4: Complete Testing Specifications}
+\subsection{Documentation}
+As described in the previous section, the test cases have been implemented and saved into the directory structure as follows: each test case executable file has been saved in the /testing-framework/testCaseExecutables/ folder; each test case description has been saved in the /testing-framework/testCases/ folder; a short description as well as the inputs for the respective executable file have been documented in each of these text files.
+\subsection{Test Case Specifications}
+Below are detailed the specifications for all twenty-six test cases. Each brief description contains four main parts - the test case id number, the requirement being tested, the component being tested, and the method being testing.
+\begin{enumerate}[noitemsep,topsep=0pt]
+\item \textbf{Activity Chooser}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 1
+\item \textbf{Requirement}: Checks ActivityChooser titles and constructor
+\item \textbf{Component}: jarabe.model.activitychooser.py
+\item \textbf{Method}: set\_title
+\end{itemize}
+\item \textbf{Age Calculator}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 2
+\item \textbf{Requirement}: Checks for valid timestamp calculation of a birthdate
+\item \textbf{Component}: jarabe.intro.agepicker.py
+\item \textbf{Method}: calculate\_age
+\end{itemize}
+\item \textbf{Age Calculator Invalid}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 3
+\item \textbf{Requirement}: Checks for invalid timestamp calculation of a birthdate
+\item \textbf{Component}: jarabe.intro.agepicker.py
+\item \textbf{Method}: calculate\_age
+\end{itemize}
+\item \textbf{Buddy Color}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 4
+\item \textbf{Requirement}: Checks for color change ability
+\item \textbf{Component}: jarabe.model.buddy.py
+\item \textbf{Method}: set\_color
+\end{itemize}
+\item \textbf{Buddy Key}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 5
+\item \textbf{Requirement}: Checks for key change ability
+\item \textbf{Component}: jarabe.model.buddy.py
+\item \textbf{Method}: set\_key
+\end{itemize}
+\item \textbf{Buddy Nickname}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 6
+\item \textbf{Requirement}: Checks for nickname changes
+\item \textbf{Component}: jarabe.model.buddy.py
+\item \textbf{Method}: set\_nick
+\end{itemize}
+\item \textbf{Change Brightness}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 7
+\item \textbf{Requirement}: Can set brightness levels
+\item \textbf{Component}: jarabe.model.brightness.py
+\item \textbf{Method}: set\_brightness
+\end{itemize}
+\item \textbf{CMD Help}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 8
+\item \textbf{Requirement}: Testing system command line 
+\item \textbf{Component}: jarabe.controlpanel.cmd.py
+\item \textbf{Method}: cmd\_help
+\end{itemize}
+\item \textbf{CMD Restart}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 9
+\item \textbf{Requirement}: Testing the system command line
+\item \textbf{Component}: jarabe.controlpanel.cmd.py
+\item \textbf{Method}: node\_restart
+\end{itemize}
+\item \textbf{Help Website}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 10
+\item \textbf{Requirement}: Checks for the link to the help website
+\item \textbf{Component}: jarabe.view.viewhelp.py
+\item \textbf{Method}: get\_social\_help\_server
+\end{itemize}
+\item \textbf{HTTP Open}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 11
+\item \textbf{Requirement}: Checks that http requests can be made
+\item \textbf{Component}: jarabe.util.httprange.py
+\item \textbf{Method}: open
+\end{itemize}
+\item \textbf{HTTP Size}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 12
+\item \textbf{Requirement}: Checks that http requests are valid
+\item \textbf{Component}: jarabe.util.httprange.py
+\item \textbf{Method}: size
+\end{itemize}
+\item \textbf{Journal Comment}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 13
+\item \textbf{Requirement}: Checks for journal comments
+\item \textbf{Component}: jarabe.journal.expandedentry.py
+\item \textbf{Method}: add\_row
+\end{itemize}
+\item \textbf{String isASCII}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 14
+\item \textbf{Requirement}: Checks to make sure strings can be represented in ascii code
+\item \textbf{Component}: jarabe.desktop.keydialog.py
+\item \textbf{Method}: string\_is\_ascii
+\end{itemize}
+\item \textbf{String isHex}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 15
+\item \textbf{Requirement}: Checks to make sure the hex string comparison is working
+\item \textbf{Component}: jarabe.desktop.keydialog.py
+\item \textbf{Method}: string\_is\_hex
+\end{itemize}
+\item \textbf{String Hex Converter}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 16
+\item \textbf{Requirement}: Checks the string hex converter
+\item \textbf{Component}: jarabe.desktop.keydialog.py
+\item \textbf{Method}: string\_to\_hex
+\end{itemize}
+\item \textbf{Friends Model}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 17
+\item \textbf{Requirement}: Checks for the friends model creation
+\item \textbf{Component}: jarabe.model.friends.py
+\item \textbf{Method}: get\_model
+\end{itemize}
+\item \textbf{Add Friend}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 18
+\item \textbf{Requirement}: Checks for errors when adding a friend
+\item \textbf{Component}: jarabe.model.friends.py
+\item \textbf{Method}: add\_friend
+\end{itemize}
+\item \textbf{Has Friend}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 19
+\item \textbf{Requirement}: Checks for added friends to appear as added
+\item \textbf{Component}: jarabe.model.friends.py
+\item \textbf{Method}: add\_friend
+\end{itemize}
+\item \textbf{String Normalization}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 20
+\item \textbf{Requirement}: Tests string normalization (removing non-ascii characters)
+\item \textbf{Component}: jarabe.util.normalize
+\item \textbf{Method}: normalize
+\end{itemize}
+\item \textbf{Serial Number Generation}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 21
+\item \textbf{Requirement}: Checks for randomized serial generation
+\item \textbf{Component}: jarabe.model.session
+\item \textbf{Method}: have\_systemd
+\end{itemize}
+\item \textbf{System Session Support}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 22
+\item \textbf{Requirement}: Checks for school session logging support
+\item \textbf{Component}: jarabe.model.session
+\item \textbf{Method}: have\_systemd
+\end{itemize}
+\item \textbf{Get System Session}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 23
+\item \textbf{Requirement}: Checks session logging
+\item \textbf{Component}: jarabe.model.session
+\item \textbf{Method}: get\_session
+\end{itemize}
+\item \textbf{Set Volume}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 24
+\item \textbf{Requirement}: Changes the system volume
+\item \textbf{Component}: jarabe.model.sound.py
+\item \textbf{Method}: set\_volume
+\end{itemize}
+\item \textbf{Mute Volume}:
+\begin{itemize}[topsep=0pt]
+\item \textbf{Test ID}: 25
+\item \textbf{Requirement}: Mutes the system volume
+\item \textbf{Component}: jarabe.model.sound.py
+\item \textbf{Method}: set\_muted
+\end{itemize}
+\item \textbf{Speech Manager}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 26
+\item \textbf{Requirement}: Creates a speech manager utility
+\item \textbf{Component}: jarabe.model.speed.py
+\item \textbf{Method}: get\_speech\_manager
+\end{itemize}
+\end{enumerate}
+\subsection{Team Evaluation}
+In this deliverable our team had to finish flushing out all 25 of the test cases that our Testing Framework would be automatically testing as well as make any changes to the framework that we found necessary. We decided that the way the framework was set up was perfectly fine for the rest of the project. From here we had a large task ahead of us, planning out and executing 20 more test cases on top of the 5 that we had for the previous deliverable. We got off to a decent start knocking a few out pretty quickly and started to hit a bit of a wall. Our biggest problem was many of the classes and files this system used are graphical and required additional imports that were not needed for a successful build. That issue combined with the system being written in python, it made it very difficult to understand some of the files because even if we could get them imported for test cases, we were not sure what all of the parameters meant because of python being a dynamically typed language. We still managed to get all 25 test cases and some of them were able to test graphical components of the system without actually needing the graphics to appear on screen. Sugar Labs would is a great tool and idea, but with the lack of documentation and instructions it turned out to be much larger of a task to come in and get test cases written than we initially expected. Overall we are happy with what we have accomplished up to this point with the system, it would have just been much easier to understand Sugar Labs as a whole if the development team had more documentation throughout the code.
+
+
+\end{document}
