@@ -1,4 +1,4 @@
-# The-Chocolate-LEclairs
+# The-Chocolate-LEclercs
 - Blaine Billings, Alex Skiff, Chase Myers, Justin Willis, Carson Barder
 
 # Description
