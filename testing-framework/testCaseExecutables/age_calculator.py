@@ -3,6 +3,7 @@ import jarabe.intro.agepicker as agepick
 import time
 import datetime
 import os
+import sys
 
 class TestAgeCalculation(unittest.TestCase):
 	def test_age_calc(self):

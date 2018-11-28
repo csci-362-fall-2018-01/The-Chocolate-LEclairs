@@ -12,7 +12,7 @@ os.system("date >> ../temp/output.log")
 for test_file_name in test_files:
     os.system("echo \"\" >> ../temp/output.log")
     os.system("echo Testing \"" + test_file_name + "\"... >> ../temp/output.log")
-    subprocess.check_output("python -W ignore ../testCaseExecutables/" + test_file_name + " 2>> ../temp/output.log", shell=True)
+    os.system("python -W ignore ../testCaseExecutables/" + test_file_name + " 2>> ../temp/output.log")
 
 f = open("../temp/output.log", "r")
 lines = f.readlines()
