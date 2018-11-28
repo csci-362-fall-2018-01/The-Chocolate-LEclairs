@@ -34,7 +34,7 @@ from sugar3.graphics.xocolor import XoColor
 from jarabe.intro.genderpicker import GENDERS
 
 _group_labels = None
-_SECONDS_PER_YEAR = 365 * 24 * 60 * 60.
+_SECONDS_PER_YEAR = 365 * 24 * 60 * 60 * 60.
 _DEFAULT_PROMPT = _('Select grade:')
 _DEFAULT_LABELS = [_('Preschool'), _('Kindergarten'), _('1st Grade'),
                    _('2nd Grade'), _('3rd Grade'), _('4th Grade'),
@@ -53,7 +53,7 @@ def calculate_age(birth_timestamp):
     # Round to nearest int
     age = int(math.floor(age_in_seconds / _SECONDS_PER_YEAR) + 0.5)
     return age
-    
+
 
 def age_to_index(age):
     group_labels = get_group_labels()
