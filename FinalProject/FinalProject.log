@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.9)  27 NOV 2018 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.9)  27 NOV 2018 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,15 +264,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<../imgs/ChocolateLeclairs.png, id=1, 963.6pt x 481.8pt>
-File: ../imgs/ChocolateLeclairs.png Graphic file (type png)
+<../imgs/ChocolateLEclercs.png, id=1, 963.6pt x 481.8pt>
+File: ../imgs/ChocolateLEclercs.png Graphic file (type png)
 
-<use ../imgs/ChocolateLeclairs.png>
-Package pdftex.def Info: ../imgs/ChocolateLeclairs.png used on input line 40.
+<use ../imgs/ChocolateLEclercs.png>
+Package pdftex.def Info: ../imgs/ChocolateLEclercs.png used on input line 41.
 (pdftex.def)             Requested size: 207.0021pt x 103.49675pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../imgs/ChocolateLeclairs.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../imgs/ChocolateLEclercs.
 png>] (./FinalProject.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
@@ -296,17 +296,17 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 <../imgs/Figure4.png, id=17, 542.025pt x 180.675pt>
 File: ../imgs/Figure4.png Graphic file (type png)
  <use ../imgs/Figure4.png>
-Package pdftex.def Info: ../imgs/Figure4.png used on input line 61.
+Package pdftex.def Info: ../imgs/Figure4.png used on input line 62.
 (pdftex.def)             Requested size: 271.01183pt x 90.33727pt.
 
 [2 <../imgs/Figure4.png>] <../imgs/Figure1.png, id=25, 742.775pt x 331.2375pt>
 File: ../imgs/Figure1.png Graphic file (type png)
 
 <use ../imgs/Figure1.png>
-Package pdftex.def Info: ../imgs/Figure1.png used on input line 102.
+Package pdftex.def Info: ../imgs/Figure1.png used on input line 103.
 (pdftex.def)             Requested size: 371.38658pt x 165.61833pt.
 
-Overfull \hbox (26.38658pt too wide) in paragraph at lines 102--103
+Overfull \hbox (26.38658pt too wide) in paragraph at lines 103--104
  [][] 
  []
 
@@ -315,23 +315,23 @@ Overfull \hbox (26.38658pt too wide) in paragraph at lines 102--103
 File: ../imgs/Figure2.png Graphic file (type png)
 
 <use ../imgs/Figure2.png>
-Package pdftex.def Info: ../imgs/Figure2.png used on input line 130.
+Package pdftex.def Info: ../imgs/Figure2.png used on input line 131.
 (pdftex.def)             Requested size: 341.77605pt x 100.87662pt.
 
-Overfull \hbox (19.01741pt too wide) in paragraph at lines 142--144
+Overfull \hbox (19.01741pt too wide) in paragraph at lines 143--145
 \OT1/cmr/m/n/10 bundle.py, and jour-nal-win-dow.py files will be-gin with the c
 re-ation of a test[]journal.py
  []
 
 [5 <../imgs/Figure2.png>] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 172.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 173.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 172.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -339,16 +339,16 @@ Missing character: There is no ™ in font cmr10!
 <../imgs/Figure3.png, id=47, 728.7225pt x 441.65pt>
 File: ../imgs/Figure3.png Graphic file (type png)
  <use ../imgs/Figure3.png>
-Package pdftex.def Info: ../imgs/Figure3.png used on input line 200.
+Package pdftex.def Info: ../imgs/Figure3.png used on input line 201.
 (pdftex.def)             Requested size: 291.48383pt x 176.65686pt.
 
-Overfull \hbox (67.4173pt too wide) in paragraph at lines 197--204
+Overfull \hbox (67.4173pt too wide) in paragraph at lines 198--205
 \OT1/cmr/m/n/10 Each of the test cases have been writ-ten and saved to the /Tes
 -tAu-toma-tion/testCaseExecutables
  []
 
 [8 <../imgs/Figure3.png>] [9]
-Overfull \hbox (4.07123pt too wide) in paragraph at lines 256--256
+Overfull \hbox (4.07123pt too wide) in paragraph at lines 257--257
 []\OT1/cmr/bx/n/14.4 Deliverable 4: Com-plete Test-ing Spec-i-fi-ca-tions 
  []
 
@@ -446,7 +446,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msam10.pfb>
-Output written on FinalProject.pdf (16 pages, 612970 bytes).
+Output written on FinalProject.pdf (16 pages, 612998 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
