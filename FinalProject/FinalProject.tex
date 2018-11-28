@@ -1,10 +1,10 @@
 % LaTeX Article Template
 \documentclass{article}
-\usepackage{amssymb, amsmath, amsfonts, amsthm, latexsym, graphicx, enumitem}
+\usepackage{amssymb, amsmath, amsfonts, amsthm, latexsym, graphicx, enumitem, tocloft}
 \newcommand{\C}{\mathbb {C}}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \newcommand\smalltab[1][0.3cm]{\hspace*{#1}}
-
+\setcounter{section}{-1}
 \title{CSCI 362 Final Project: SugarLabs}
 \author{Alex Skiff, Blaine Billings, Carson Barber, Chase Myers, Justin Willis}
 \date{ }
@@ -37,6 +37,7 @@
  
         \vspace{0.8cm}
  
+		\includegraphics[width=0.6\textwidth]{../imgs/ChocolateLeclairs.png}
 
         \Large
         College of Charleston\\
@@ -64,7 +65,7 @@ While the project's organization follows the software engineering design princip
 \subsection{Testing Framework}
 Through our work, we aim to create an automated testing framework that both highly increases the coverage of unit testing, allowing for the verification and near guarantee of fewer program faults, and allows a user of the Sugar Labs software to be able to easily integrate their tests as well as provide additional testing input for existing test classes.
 
-This document is organized as follows. In Section 2, we thoroughly detail how to properly install the Sugar Labs project, accounting for all nececssary software requirements and pre-installation command procedures. Section 3 introduces the testing plan, detailing the specifics of the five principal test cases that serve as an outline for the twenty-five introduced herein. In addition, in this section, we cover various requirements and restraints associated with such an undertaking so as to be prepared for whatever challenges may arise. In Section 4, we provide an architectural description of the automated testing framework, outlining the primary files and folders, as well as discuss in detail the implementation of the five initial test cases as introduced in the previous section. This serves as both a backbone of the testing framework and a guide for any future test cases. In Section 5, we include brief descriptions of the the remaining twenty implemented test cases, omitting the specifics which can be found in the actual implementation and understood alongisde those previously characterized. In Section 6, we inject faults into the project code so as to demonstrate the veracity of our framework before concluding with a final review.
+This document is organized as follows. In Section 2, we thoroughly detail how to properly install the Sugar Labs project, accounting for all nececssary software requirements and pre-installation command procedures. Section 3 introduces the testing plan, detailing the specifics of the five principal test cases that serve as an outline for the twenty-five introduced herein. In addition, in this section, we cover various requirements and restraints associated with such an undertaking so as to be prepared for whatever challenges may arise. In Section 4, we provide an architectural description of the automated testing framework, outlining the primary files and folders, as well as discuss in detail the implementation of the five initial test cases as introduced in the previous section. This serves as both a backbone of the testing framework and a guide for any future test cases. In Section 5, we include brief descriptions of all twenty-six implemented test cases, omitting the specifics which can be found in the actual implementation and understood alongisde the models of those characterized in detail in the previous section. In Section 6, we inject faults into the project code so as to demonstrate the veracity of our framework before concluding with a final review.
 
 \section{Deliverable 1: Installation}
 \subsection{Clone and Build}
@@ -175,6 +176,7 @@ The system tests will primarily consist of checking relevant software installati
 \item \textbf{gtk+-3.0}: dpkg -\--get-selections $\mid$ gtk-3.0
 \end{itemize}
 \subsection{Team Evaluation}
+So far, our team seems to be making good progress. We’ve been able to properly install and make the source code that we pulled off of GitHub. We split our first test cases into three subsystems: Profile, Journal and Activity. We plan to put our future tests into each of these subsystems to make testing easier and more streamlined.Our goal is to test files required for profile creation, such as picking an age and gender, as well as assigning journal activities. 
 
 \section{Deliverable 3: Automated Testing Framework}
 \subsection{Architectural Description}
@@ -192,7 +194,7 @@ The automated testing framework has been subdivided in to following sections for
 \end{itemize}
 \end{itemize}
 \subsection{Documentation}
-Each of the test cases have been written and saved to the /TestAutomation/testCaseExecutables folder, with their input files being located in /TestAutomation/testCases as described above. In each of these testCase input files is outlined a brief description of the test case and how one may go about modifying it for their own purposes. An example of such is provided in Figure \ref{Figure3}
+Each of the test cases have been written and saved to the /TestAutomation/testCaseExecutables folder, with their input files being located in /TestAutomation/testCases as described above. In each of these testCase input files is outlined a brief description of the test case and how one may go about modifying it for their own purposes. An example of such is provided in Figure \ref{Figure3}.
 \begin{figure}
 \centering
 \includegraphics[scale=0.4]{../imgs/Figure3.png}
@@ -201,10 +203,10 @@ Each of the test cases have been written and saved to the /TestAutomation/testCa
 \end{figure}
 \subsection{Test Case Sepcifications}
 For the first step in the implementation of our automate testing framework we wrote and exectuted five primary test cases. These are specified below.
-\begin{itemize}[noitemsep]
+\begin{enumerate}[noitemsep]
 \item age\_calculator
 \begin{itemize}[noitemsep,topsep=0pt]
-\item \textbf{Test ID}: 1.01
+\item \textbf{Test ID}: 2
 \item \textbf{Test Requirement}: Correlated age input is properly recognized by the system as correct input and subsequently processed.
 \item \textbf{Test Component}: jarabe.intro.agepicker
 \item \textbf{Test Method}: calculate\_age
@@ -213,49 +215,257 @@ For the first step in the implementation of our automate testing framework we wr
 \end{itemize}
 \item age\_calculator\_invalid
 \begin{itemize}[noitemsep,topsep=0pt]
-\item \textbf{Test ID}: 1.02
+\item \textbf{Test ID}: 3
 \item \textbf{Test Requirement}: Noncorrelated age input is properly recognized by the system as incorrect input.
 \item \textbf{Test Component}: jarabe.intro.agepicker
 \item \textbf{Test Method}: calculate\_age
 \item \textbf{Test Input}: Input is provided in the form of two-line input, the first being the birthdate of the user and the second the correct age of said user. Input: (22/06/1997, 22), (25/12/1997, 21), (10/03/1990, 29), (29/05/1978, 41), (30/09/2016, 3)
 \item \textbf{Expected Output}: Output is expected to return False for each of the input test cases, as the calculated age and input age will match. Expected Output: False, False, False, False, False
 \end{itemize}
-\item buddy\_nickname
-\begin{itemize}[noitemsep,topsep=0pt]
-\item \textbf{Test ID}: 2.01
-\item \textbf{Test Requirement}: A user must be able to set and be returned the nickname of their account's "buddy"
-\item \textbf{Test Component}: jarabe.model.buddy
-\item \textbf{Test Method}: set\_nick, get\_nick
-\item \textbf{Test Input}: Input is provided in the form of a string, representing the buddy nickname. Input: bigboidan
-\item \textbf{Expected Output}: Output is expected to return the input string for each of the input test cases, as the set method should properly set the nickname, and the get method should properly return the nickname. Expected Output: bigboidan
-\end{itemize}
-\item buddy\_key
-\begin{itemize}[noitemsep,topsep=0pt]
-\item \textbf{Test ID}: 2.02
-\item \textbf{Test Requirement}: A user must be able to set and be returned the key of their account's "buddy"
-\item \textbf{Test Component}: jarabe.model.buddy
-\item \textbf{Test Method}: set\_key, get\_key
-\item \textbf{Test Input}: Input is provided in the form of a two eight-letter codes joined by an underscore, representing the buddy key. Input: DEADBEEF\_DEADCODE
-\item \textbf{Expected Output}: Output is expected to return the input key for each of the input test cases, as the set method should properly set the key, and the get method should properly return the key. Expected Output: DEADBEEF\_DEADCODE
-\end{itemize}
 \item buddy\_color
 \begin{itemize}[noitemsep,topsep=0pt]
-\item \textbf{Test ID}: 2.03
+\item \textbf{Test ID}: 4
 \item \textbf{Test Requirement}: A user must be able to set and be returned the color of their account's "buddy"
 \item \textbf{Test Component}: jarabe.model.buddy
 \item \textbf{Test Method}: set\_color, get\_color
 \item \textbf{Test Input}: Input is provided in the form of a six-digit hex number, representing the buddy color. Input: FF00FF
 \item \textbf{Expected Output}: Output is expected to return the input number for each of the input test cases, as the set method should properly set the color, and the get method should properly return the color. Expected Output: FF00FF
 \end{itemize}
+\item buddy\_key
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 5
+\item \textbf{Test Requirement}: A user must be able to set and be returned the key of their account's "buddy"
+\item \textbf{Test Component}: jarabe.model.buddy
+\item \textbf{Test Method}: set\_key, get\_key
+\item \textbf{Test Input}: Input is provided in the form of a two eight-letter codes joined by an underscore, representing the buddy key. Input: DEADBEEF\_DEADCODE
+\item \textbf{Expected Output}: Output is expected to return the input key for each of the input test cases, as the set method should properly set the key, and the get method should properly return the key. Expected Output: DEADBEEF\_DEADCODE
 \end{itemize}
+\item buddy\_nickname
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 6
+\item \textbf{Test Requirement}: A user must be able to set and be returned the nickname of their account's "buddy"
+\item \textbf{Test Component}: jarabe.model.buddy
+\item \textbf{Test Method}: set\_nick, get\_nick
+\item \textbf{Test Input}: Input is provided in the form of a string, representing the buddy nickname. Input: bigboidan
+\item \textbf{Expected Output}: Output is expected to return the input string for each of the input test cases, as the set method should properly set the nickname, and the get method should properly return the nickname. Expected Output: bigboidan
+\end{itemize}
+\end{enumerate}
 \subsection{Team Evaluation}
 This deliverable was definitely the most challenging task so far for this project. We decided to use python as out scripting language since that is what the project was written in to begin with, making it much easier to interact with the project files the sugarlabs team created. After creating a few test cases, we had some other issues to resolve like redirecting the output from unittests to a file instead of the terminal. Overall we are happy with the framework layout and our ability to create the rest of the test cases moving forward. 
 
 \section{Deliverable 4: Complete Testing Specifications}
+\subsection{Documentation}
+As described in the previous section, the test cases have been implemented and saved into the directory structure as follows: each test case executable file has been saved in the /testing-framework/testCaseExecutables/ folder; each test case description has been saved in the /testing-framework/testCases/ folder; a short description as well as the inputs for the respective executable file have been documented in each of these text files.
 \subsection{Test Case Specifications}
+Below are detailed the specifications for all twenty-six test cases. Each brief description contains four main parts - the test case id number, the requirement being tested, the component being tested, and the method being testing.
+\begin{enumerate}[noitemsep,topsep=0pt]
+\item \textbf{Activity Chooser}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 1
+\item \textbf{Requirement}: Checks ActivityChooser titles and constructor
+\item \textbf{Component}: jarabe.model.activitychooser.py
+\item \textbf{Method}: set\_title
+\end{itemize}
+\item \textbf{Age Calculator}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 2
+\item \textbf{Requirement}: Checks for valid timestamp calculation of a birthdate
+\item \textbf{Component}: jarabe.intro.agepicker.py
+\item \textbf{Method}: calculate\_age
+\end{itemize}
+\item \textbf{Age Calculator Invalid}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 3
+\item \textbf{Requirement}: Checks for invalid timestamp calculation of a birthdate
+\item \textbf{Component}: jarabe.intro.agepicker.py
+\item \textbf{Method}: calculate\_age
+\end{itemize}
+\item \textbf{Buddy Color}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 4
+\item \textbf{Requirement}: Checks for color change ability
+\item \textbf{Component}: jarabe.model.buddy.py
+\item \textbf{Method}: set\_color
+\end{itemize}
+\item \textbf{Buddy Key}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 5
+\item \textbf{Requirement}: Checks for key change ability
+\item \textbf{Component}: jarabe.model.buddy.py
+\item \textbf{Method}: set\_key
+\end{itemize}
+\item \textbf{Buddy Nickname}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 6
+\item \textbf{Requirement}: Checks for nickname changes
+\item \textbf{Component}: jarabe.model.buddy.py
+\item \textbf{Method}: set\_nick
+\end{itemize}
+\item \textbf{Change Brightness}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 7
+\item \textbf{Requirement}: Can set brightness levels
+\item \textbf{Component}: jarabe.model.brightness.py
+\item \textbf{Method}: set\_brightness
+\end{itemize}
+\item \textbf{CMD Help}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 8
+\item \textbf{Requirement}: Testing system command line 
+\item \textbf{Component}: jarabe.controlpanel.cmd.py
+\item \textbf{Method}: cmd\_help
+\end{itemize}
+\item \textbf{CMD Restart}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 9
+\item \textbf{Requirement}: Testing the system command line
+\item \textbf{Component}: jarabe.controlpanel.cmd.py
+\item \textbf{Method}: node\_restart
+\end{itemize}
+\item \textbf{Help Website}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 10
+\item \textbf{Requirement}: Checks for the link to the help website
+\item \textbf{Component}: jarabe.view.viewhelp.py
+\item \textbf{Method}: get\_social\_help\_server
+\end{itemize}
+\item \textbf{HTTP Open}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 11
+\item \textbf{Requirement}: Checks that http requests can be made
+\item \textbf{Component}: jarabe.util.httprange.py
+\item \textbf{Method}: open
+\end{itemize}
+\item \textbf{HTTP Size}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 12
+\item \textbf{Requirement}: Checks that http requests are valid
+\item \textbf{Component}: jarabe.util.httprange.py
+\item \textbf{Method}: size
+\end{itemize}
+\item \textbf{Journal Comment}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 13
+\item \textbf{Requirement}: Checks for journal comments
+\item \textbf{Component}: jarabe.journal.expandedentry.py
+\item \textbf{Method}: add\_row
+\end{itemize}
+\item \textbf{String isASCII}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 14
+\item \textbf{Requirement}: Checks to make sure strings can be represented in ascii code
+\item \textbf{Component}: jarabe.desktop.keydialog.py
+\item \textbf{Method}: string\_is\_ascii
+\end{itemize}
+\item \textbf{String isHex}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 15
+\item \textbf{Requirement}: Checks to make sure the hex string comparison is working
+\item \textbf{Component}: jarabe.desktop.keydialog.py
+\item \textbf{Method}: string\_is\_hex
+\end{itemize}
+\item \textbf{String Hex Converter}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 16
+\item \textbf{Requirement}: Checks the string hex converter
+\item \textbf{Component}: jarabe.desktop.keydialog.py
+\item \textbf{Method}: string\_to\_hex
+\end{itemize}
+\item \textbf{Friends Model}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 17
+\item \textbf{Requirement}: Checks for the friends model creation
+\item \textbf{Component}: jarabe.model.friends.py
+\item \textbf{Method}: get\_model
+\end{itemize}
+\item \textbf{Add Friend}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 18
+\item \textbf{Requirement}: Checks for errors when adding a friend
+\item \textbf{Component}: jarabe.model.friends.py
+\item \textbf{Method}: add\_friend
+\end{itemize}
+\item \textbf{Has Friend}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 19
+\item \textbf{Requirement}: Checks for added friends to appear as added
+\item \textbf{Component}: jarabe.model.friends.py
+\item \textbf{Method}: add\_friend
+\end{itemize}
+\item \textbf{String Normalization}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 20
+\item \textbf{Requirement}: Tests string normalization (removing non-ascii characters)
+\item \textbf{Component}: jarabe.util.normalize
+\item \textbf{Method}: normalize
+\end{itemize}
+\item \textbf{Serial Number Generation}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 21
+\item \textbf{Requirement}: Checks for randomized serial generation
+\item \textbf{Component}: jarabe.model.session
+\item \textbf{Method}: have\_systemd
+\end{itemize}
+\item \textbf{System Session Support}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 22
+\item \textbf{Requirement}: Checks for school session logging support
+\item \textbf{Component}: jarabe.model.session
+\item \textbf{Method}: have\_systemd
+\end{itemize}
+\item \textbf{Get System Session}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 23
+\item \textbf{Requirement}: Checks session logging
+\item \textbf{Component}: jarabe.model.session
+\item \textbf{Method}: get\_session
+\end{itemize}
+\item \textbf{Set Volume}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 24
+\item \textbf{Requirement}: Changes the system volume
+\item \textbf{Component}: jarabe.model.sound.py
+\item \textbf{Method}: set\_volume
+\end{itemize}
+\item \textbf{Mute Volume}:
+\begin{itemize}[topsep=0pt]
+\item \textbf{Test ID}: 25
+\item \textbf{Requirement}: Mutes the system volume
+\item \textbf{Component}: jarabe.model.sound.py
+\item \textbf{Method}: set\_muted
+\end{itemize}
+\item \textbf{Speech Manager}:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{Test ID}: 26
+\item \textbf{Requirement}: Creates a speech manager utility
+\item \textbf{Component}: jarabe.model.speed.py
+\item \textbf{Method}: get\_speech\_manager
+\end{itemize}
+\end{enumerate}
 \subsection{Team Evaluation}
+In this deliverable our team had to finish flushing out all 25 of the test cases that our Testing Framework would be automatically testing as well as make any changes to the framework that we found necessary. We decided that the way the framework was set up was perfectly fine for the rest of the project. From here we had a large task ahead of us, planning out and executing 20 more test cases on top of the 5 that we had for the previous deliverable. We got off to a decent start knocking a few out pretty quickly and started to hit a bit of a wall. Our biggest problem was many of the classes and files this system used are graphical and required additional imports that were not needed for a successful build. That issue combined with the system being written in python, it made it very difficult to understand some of the files because even if we could get them imported for test cases, we were not sure what all of the parameters meant because of python being a dynamically typed language. We still managed to get all 25 test cases and some of them were able to test graphical components of the system without actually needing the graphics to appear on screen. Sugar Labs would is a great tool and idea, but with the lack of documentation and instructions it turned out to be much larger of a task to come in and get test cases written than we initially expected. Overall we are happy with what we have accomplished up to this point with the system, it would have just been much easier to understand Sugar Labs as a whole if the development team had more documentation throughout the code.
 
 \section{Deliverable 5: Testing Fault-Injected Code}
+\subsection{Description}
+For this deliverable we have changed the code in multiple places inside of Sugar Labs’ system in order to make our testing framework fail on a few test cases. The changes could be removing method implementation, making mathematical mistakes and other changes to cause assertions to no longer be valid. This will help us further test out the framework to make sure that even with broken code, it does not cause our framework to crash
+\subsection{Documentation}
+When you first clone the directory, The full sugar labs source code will be in the ‘testing-framework/sugar’ directory, the working sugar labs files that we have not changed will be in the ‘testing-framework/scripts/fix/’ directory, and the faulty files will be in the ‘testing-framework/scripts/break/’ directory. 
+
+To inject the faulty code, you will run the script ‘breakSugar.py’ from within the scripts directory. After breaking the code, you will need to run the ‘fixSugar.py’ script to get the original code back in the working sugar labs directory. Because of the sugar labs installation process, the code that is executed is actually found in the path: ‘/usr/local/lib/python2.7/dist-packages/jarabe/’.
+
+When you run the fix or break scripts, we will be compiling the broken or fixed code, and replacing the files within this distribution folder. It is also possible that you will need to be root when you run the fix and break scripts.
+\subsection{Changed Code}
+The Sugar Labs software has been edited, as described in the preceding paragraphs, in the following source files with changes as described:
+\begin{itemize}[noitemsep,topsep=0pt]
+\item \textbf{agepicker.py}: Changed the \_SECONDS\_PER\_YEAR constant to $(365 * 24 * 60 * 60 * 60)$ instead of $(365 * 24 * 60 * 60)$ so our age calculation will no longer return the correct value, causing the age\_calculator test case.
+\item \textbf{viewhelp.py}: Changed the ‘social-help-server’ string to ‘social-help’ in the get\_social\_help\_server method, so our help window will no longer be able to find the correct help web page, making the Help Website test case fail.
+\item \textbf{httprange.py} Removed the line ‘self.\_size = self.\_result’ from the size method. This will make the size of the web request always return 0, so the users would never be able to tell if the http requests are even working. This will also cause our HTTP Size test case to fail for the method size.
+\item \textbf{friends.py}: In the ‘has\_buddy’ method for a Friends object, we changed the check for ‘buddy.get\_key() in self.\_friends’ to not in friends. This makes the system think that people who are not friends are friends and vice versa. This will cause the has\_buddy method fail within our Buddy Check test case.
+\item \textbf{schoolserver.py}: In the \_generate\_serial\_number() we added a line to seed the random number generator so that this serial number creator is no longer random. In our test case we have the seed match what the system usually used, so now our Serial Number test case will fail
+\end{itemize}
 \subsection{Team Evaluation}
+For this deliverable we have changed the code in multiple places inside of Sugar Labs’ system in order to make our testing framework fail on a few test cases. The changes could be removing method implementation, making mathematical mistakes and other changes to cause assertions to no longer be valid. This will help us further test out the framework to make sure that even with broken code, it does not cause our framework to crash. This wasn't too difficult to plan out, the hardest part was replacing the actual sugar labs code. After installation Sugar Labs installs everything to the python distributable folder on your computer with the compiled files. To accompany these installations, we wrote scripts files to compile our changed code and replace the files in the sugar install directory. We also wrote a script file to replace the original code.
+
+\section{Overall Experiences}
 
 \end{document}
